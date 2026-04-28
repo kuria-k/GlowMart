@@ -20098,3 +20098,33 @@ INFO 2026-04-28 17:03:42,199 runserver 132 22832 [mHTTP GET /api/inventory/prod
 INFO 2026-04-28 17:03:48,269 runserver 132 22832 [mHTTP GET /api/inventory/categories/ 200 [0.04, 127.0.0.1:56715][0m
 INFO 2026-04-28 17:03:48,270 runserver 132 22832 [mHTTP GET /api/inventory/suppliers/ 200 [0.04, 127.0.0.1:53475][0m
 INFO 2026-04-28 17:03:48,290 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.06, 127.0.0.1:56763][0m
+INFO 2026-04-28 17:04:12,205 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.03, 127.0.0.1:56763][0m
+INFO 2026-04-28 17:04:48,515 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.03, 127.0.0.1:62032][0m
+INFO 2026-04-28 17:04:48,542 runserver 132 22832 [mHTTP GET /api/inventory/categories/ 200 [0.02, 127.0.0.1:54483][0m
+INFO 2026-04-28 17:04:48,547 runserver 132 22832 [mHTTP GET /api/inventory/suppliers/ 200 [0.03, 127.0.0.1:59583][0m
+INFO 2026-04-28 17:04:48,562 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.04, 127.0.0.1:62032][0m
+INFO 2026-04-28 17:05:48,249 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.08, 127.0.0.1:62032][0m
+INFO 2026-04-28 17:05:48,325 runserver 132 22832 [mHTTP GET /api/inventory/categories/ 200 [0.04, 127.0.0.1:59583][0m
+INFO 2026-04-28 17:05:48,332 runserver 132 22832 [mHTTP GET /api/inventory/suppliers/ 200 [0.05, 127.0.0.1:54483][0m
+INFO 2026-04-28 17:05:48,365 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.08, 127.0.0.1:62032][0m
+INFO 2026-04-28 17:06:48,208 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.03, 127.0.0.1:62032][0m
+INFO 2026-04-28 17:06:48,243 runserver 132 22832 [mHTTP GET /api/inventory/suppliers/ 200 [0.03, 127.0.0.1:59583][0m
+INFO 2026-04-28 17:06:48,245 runserver 132 22832 [mHTTP GET /api/inventory/categories/ 200 [0.03, 127.0.0.1:54483][0m
+INFO 2026-04-28 17:06:48,274 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.06, 127.0.0.1:62032][0m
+INFO 2026-04-28 17:07:48,211 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.03, 127.0.0.1:62032][0m
+WARNING 2026-04-28 17:07:48,226 log 132 22372 Unauthorized: /api/inventory/products/
+WARNING 2026-04-28 17:07:48,227 log 132 25180 Unauthorized: /api/inventory/suppliers/
+WARNING 2026-04-28 17:07:48,227 log 132 25120 Unauthorized: /api/inventory/categories/
+WARNING 2026-04-28 17:07:48,228 runserver 132 22832 [31;1mHTTP GET /api/inventory/products/ 401 [0.01, 127.0.0.1:59583][0m
+WARNING 2026-04-28 17:07:48,229 runserver 132 22832 [31;1mHTTP GET /api/inventory/suppliers/ 401 [0.02, 127.0.0.1:62032][0m
+WARNING 2026-04-28 17:07:48,230 runserver 132 22832 [31;1mHTTP GET /api/inventory/categories/ 401 [0.02, 127.0.0.1:54483][0m
+INFO 2026-04-28 17:07:48,248 runserver 132 22832 [mHTTP POST /api/user/token/refresh/ 200 [0.02, 127.0.0.1:62032][0m
+INFO 2026-04-28 17:07:48,249 runserver 132 22832 [mHTTP POST /api/user/token/refresh/ 200 [0.01, 127.0.0.1:59583][0m
+INFO 2026-04-28 17:07:48,250 runserver 132 22832 [mHTTP POST /api/user/token/refresh/ 200 [0.02, 127.0.0.1:54483][0m
+INFO 2026-04-28 17:07:48,282 runserver 132 22832 [mHTTP GET /api/inventory/suppliers/ 200 [0.03, 127.0.0.1:54483][0m
+INFO 2026-04-28 17:07:48,287 runserver 132 22832 [mHTTP GET /api/inventory/categories/ 200 [0.03, 127.0.0.1:59583][0m
+INFO 2026-04-28 17:07:48,302 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.05, 127.0.0.1:62032][0m
+INFO 2026-04-28 17:08:48,215 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.03, 127.0.0.1:62032][0m
+INFO 2026-04-28 17:08:48,241 runserver 132 22832 [mHTTP GET /api/inventory/suppliers/ 200 [0.02, 127.0.0.1:54483][0m
+INFO 2026-04-28 17:08:48,244 runserver 132 22832 [mHTTP GET /api/inventory/categories/ 200 [0.02, 127.0.0.1:59583][0m
+INFO 2026-04-28 17:08:48,262 runserver 132 22832 [mHTTP GET /api/inventory/products/ 200 [0.04, 127.0.0.1:62032][0m
