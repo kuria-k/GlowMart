@@ -1,0 +1,2674 @@
+Initiating STK Push - Phone: 254708374149, Amount: 10.0
+Formatted phone: 254708374149
+Token attempt 1: Status 200
+Successfully got access token
+Payload prepared - Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+Sending request to: https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest
+Response status: 200
+Response body: {
+            "MerchantRequestID":"17e3-4585-96bd-74b1858f3fee82212",
+            "CheckoutRequestID":"ws_CO_31032026180242878708374149",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+STK Push successful: ws_CO_31032026180242878708374149
+Initiating STK Push - Phone: 254708374149, Amount: 10.0
+Formatted phone: 254708374149
+Token attempt 1: Status 200
+Successfully got access token
+Payload prepared - Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+Sending request to: https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest
+Response status: 500
+Response body: {
+                    "requestId":"17e3-4585-96bd-74b1858f3fee82269",
+                    "errorCode": "500.003.02",
+                    "errorMessage": "System is busy. Please try again in few minutes."
+                }
+            
+HTTP Error: 500
+Initiating STK Push - Phone: 254708374149, Amount: 10.0
+Formatted phone: 254708374149
+Successfully got access token
+Sending request to M-Pesa
+Response status: 200
+STK Push successful: ws_CO_31032026180417946708374149
+Initiating STK Push - Phone: 254708374149, Amount: 10.0
+Formatted phone: 254708374149
+Successfully got access token
+Sending request to M-Pesa
+Response status: 200
+STK Push successful: ws_CO_31032026180423579708374149
+Initiating STK Push - Phone: 254708374149, Amount: 10.0
+Formatted phone: 254708374149
+Successfully got access token
+Sending request to M-Pesa
+Response status: 200
+STK Push successful: ws_CO_31032026180426749708374149
+INFO 2026-03-31 18:07:43,864 mpesa_config 23044 23056 Initiating STK Push - Phone: 254708374149, Amount: 10.0
+INFO 2026-03-31 18:07:43,865 mpesa_config 23044 23056 Formatted phone: 254708374149
+INFO 2026-03-31 18:07:44,928 mpesa_config 23044 23056 Successfully got access token
+INFO 2026-03-31 18:07:44,930 mpesa_config 23044 23056 Sending request to M-Pesa
+INFO 2026-03-31 18:07:45,924 mpesa_config 23044 23056 Response status: 200
+INFO 2026-03-31 18:07:45,925 mpesa_config 23044 23056 STK Push successful: ws_CO_31032026180744960708374149
+INFO 2026-03-31 18:07:51,550 views 23044 7180 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b89507",
+      "CheckoutRequestID": "ws_CO_31032026180744960708374149",
+      "ResultCode": 1032,
+      "ResultDesc": "Request Cancelled by user."
+    }
+  }
+}
+WARNING 2026-03-31 18:07:51,564 views 23044 7180 Transaction ws_CO_31032026180744960708374149 failed: Request Cancelled by user.
+INFO 2026-03-31 18:27:09,000 mpesa_config 23044 21244 Initiating STK Push - Phone: 254799011954, Amount: 1.0
+INFO 2026-03-31 18:27:09,000 mpesa_config 23044 21244 Formatted phone: 254799011954
+INFO 2026-03-31 18:27:09,846 mpesa_config 23044 21244 Successfully got access token
+INFO 2026-03-31 18:27:09,848 mpesa_config 23044 21244 Sending request to M-Pesa
+INFO 2026-03-31 18:27:10,884 mpesa_config 23044 21244 Response status: 200
+INFO 2026-03-31 18:27:10,884 mpesa_config 23044 21244 STK Push successful: ws_CO_31032026182709873799011954
+INFO 2026-03-31 18:27:37,063 views 23044 20676 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "17e3-4585-96bd-74b1858f3fee86721",
+      "CheckoutRequestID": "ws_CO_31032026182709873799011954",
+      "ResultCode": 1037,
+      "ResultDesc": "No response from user."
+    }
+  }
+}
+WARNING 2026-03-31 18:27:37,079 views 23044 20676 Transaction ws_CO_31032026182709873799011954 failed: No response from user.
+INFO 2026-03-31 18:39:54,603 mpesa_config 23044 14752 Initiating STK Push - Phone: 254721947288, Amount: 10.0
+INFO 2026-03-31 18:39:54,604 mpesa_config 23044 14752 Formatted phone: 254721947288
+INFO 2026-03-31 18:39:55,493 mpesa_config 23044 14752 Successfully got access token
+INFO 2026-03-31 18:39:55,495 mpesa_config 23044 14752 Sending request to M-Pesa
+INFO 2026-03-31 18:39:56,844 mpesa_config 23044 14752 Response status: 200
+INFO 2026-03-31 18:39:56,845 mpesa_config 23044 14752 STK Push successful: ws_CO_31032026183955641721947288
+INFO 2026-03-31 18:39:58,020 views 23044 18388 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "17e3-4585-96bd-74b1858f3fee88389",
+      "CheckoutRequestID": "ws_CO_31032026183955641721947288",
+      "ResultCode": 1032,
+      "ResultDesc": "Request Cancelled by user."
+    }
+  }
+}
+WARNING 2026-03-31 18:39:58,037 views 23044 18388 Transaction ws_CO_31032026183955641721947288 failed: Request Cancelled by user.
+INFO 2026-03-31 18:49:04,972 mpesa_config 14428 14164 Initiating STK Push - Phone: 254799011954, Amount: 10.0
+INFO 2026-03-31 18:49:04,972 mpesa_config 14428 14164 Formatted phone: 254799011954
+INFO 2026-03-31 18:49:05,899 mpesa_config 14428 14164 Successfully got access token
+INFO 2026-03-31 18:49:05,901 mpesa_config 14428 14164 Sending request to M-Pesa
+INFO 2026-03-31 18:49:06,922 mpesa_config 14428 14164 Response status: 200
+INFO 2026-03-31 18:49:06,923 mpesa_config 14428 14164 STK Push successful: ws_CO_31032026184905862799011954
+INFO 2026-03-31 18:49:18,466 views 14428 11232 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b96160",
+      "CheckoutRequestID": "ws_CO_31032026184905862799011954",
+      "ResultCode": 1032,
+      "ResultDesc": "Request Cancelled by user."
+    }
+  }
+}
+WARNING 2026-03-31 18:49:18,484 views 14428 11232 Transaction ws_CO_31032026184905862799011954 failed: Request Cancelled by user.
+INFO 2026-03-31 18:56:00,482 mpesa_config 14428 25444 Initiating STK Push - Phone: 254799011954, Amount: 5250.0
+INFO 2026-03-31 18:56:00,482 mpesa_config 14428 25444 Formatted phone: 254799011954
+INFO 2026-03-31 18:56:01,482 mpesa_config 14428 25444 Successfully got access token
+INFO 2026-03-31 18:56:01,486 mpesa_config 14428 25444 Sending request to M-Pesa
+INFO 2026-03-31 18:56:02,605 mpesa_config 14428 25444 Response status: 200
+INFO 2026-03-31 18:56:02,606 mpesa_config 14428 25444 STK Push successful: ws_CO_31032026185601461799011954
+INFO 2026-03-31 18:56:12,726 views 14428 14096 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "17e3-4585-96bd-74b1858f3fee90852",
+      "CheckoutRequestID": "ws_CO_31032026185601461799011954",
+      "ResultCode": 1032,
+      "ResultDesc": "Request Cancelled by user."
+    }
+  }
+}
+WARNING 2026-03-31 18:56:12,742 views 14428 14096 Transaction ws_CO_31032026185601461799011954 failed: Request Cancelled by user.
+INFO 2026-03-31 18:57:51,501 mpesa_config 14428 16240 Initiating STK Push - Phone: 254799011954, Amount: 251.0
+INFO 2026-03-31 18:57:51,501 mpesa_config 14428 16240 Formatted phone: 254799011954
+INFO 2026-03-31 18:57:52,774 mpesa_config 14428 16240 Successfully got access token
+INFO 2026-03-31 18:57:52,776 mpesa_config 14428 16240 Sending request to M-Pesa
+INFO 2026-03-31 18:57:53,745 mpesa_config 14428 16240 Response status: 200
+INFO 2026-03-31 18:57:53,746 mpesa_config 14428 16240 STK Push successful: ws_CO_31032026185752677799011954
+INFO 2026-03-31 18:58:16,859 views 14428 15740 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "17e3-4585-96bd-74b1858f3fee91089",
+      "CheckoutRequestID": "ws_CO_31032026185752677799011954",
+      "ResultCode": 1032,
+      "ResultDesc": "Request Cancelled by user."
+    }
+  }
+}
+WARNING 2026-03-31 18:58:16,876 views 14428 15740 Transaction ws_CO_31032026185752677799011954 failed: Request Cancelled by user.
+INFO 2026-03-31 18:59:36,508 mpesa_config 14428 16240 Initiating STK Push - Phone: 254799011954, Amount: 251.0
+INFO 2026-03-31 18:59:36,508 mpesa_config 14428 16240 Formatted phone: 254799011954
+INFO 2026-03-31 18:59:37,529 mpesa_config 14428 16240 Successfully got access token
+INFO 2026-03-31 18:59:37,531 mpesa_config 14428 16240 Sending request to M-Pesa
+INFO 2026-03-31 18:59:38,365 mpesa_config 14428 16240 Response status: 200
+INFO 2026-03-31 18:59:38,366 mpesa_config 14428 16240 STK Push successful: ws_CO_31032026185937337799011954
+INFO 2026-03-31 18:59:45,709 views 14428 13056 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "17e3-4585-96bd-74b1858f3fee91331",
+      "CheckoutRequestID": "ws_CO_31032026185937337799011954",
+      "ResultCode": 0,
+      "ResultDesc": "The service request is processed successfully.",
+      "CallbackMetadata": {
+        "Item": [
+          {
+            "Name": "Amount",
+            "Value": 251.0
+          },
+          {
+            "Name": "MpesaReceiptNumber",
+            "Value": "UCVN5B2FXU"
+          },
+          {
+            "Name": "Balance"
+          },
+          {
+            "Name": "TransactionDate",
+            "Value": 20260331185943
+          },
+          {
+            "Name": "PhoneNumber",
+            "Value": 254799011954
+          }
+        ]
+      }
+    }
+  }
+}
+WARNING 2026-03-31 18:59:45,727 views 14428 13056 Transaction ws_CO_31032026185937337799011954 failed: The service request is processed successfully.
+INFO 2026-03-31 19:59:22,767 mpesa_config 3532 15320 Initiating STK Push - Phone: 254721947288, Amount: 10.0
+INFO 2026-03-31 19:59:22,768 mpesa_config 3532 15320 Formatted phone: 254721947288
+INFO 2026-03-31 19:59:23,844 mpesa_config 3532 15320 Successfully got access token
+INFO 2026-03-31 19:59:23,846 mpesa_config 3532 15320 Sending request to M-Pesa
+INFO 2026-03-31 19:59:24,733 mpesa_config 3532 15320 Response status: 200
+INFO 2026-03-31 19:59:24,734 mpesa_config 3532 15320 STK Push successful: ws_CO_31032026195923565721947288
+INFO 2026-03-31 19:59:36,380 views 3532 18548 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "e3e5-4a44-a094-e30a1a20e565961",
+      "CheckoutRequestID": "ws_CO_31032026195923565721947288",
+      "ResultCode": 1032,
+      "ResultDesc": "Request Cancelled by user."
+    }
+  }
+}
+WARNING 2026-03-31 19:59:36,391 views 3532 18548 Transaction ws_CO_31032026195923565721947288 failed: Request Cancelled by user.
+INFO 2026-03-31 20:00:50,569 mpesa_config 3532 15320 Initiating STK Push - Phone: 254799011954, Amount: 1.0
+INFO 2026-03-31 20:00:50,570 mpesa_config 3532 15320 Formatted phone: 254799011954
+INFO 2026-03-31 20:00:51,679 mpesa_config 3532 15320 Successfully got access token
+INFO 2026-03-31 20:00:51,681 mpesa_config 3532 15320 Sending request to M-Pesa
+INFO 2026-03-31 20:00:52,784 mpesa_config 3532 15320 Response status: 200
+INFO 2026-03-31 20:00:52,784 mpesa_config 3532 15320 STK Push successful: ws_CO_31032026200051496799011954
+INFO 2026-03-31 20:01:02,586 views 3532 10564 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b103446",
+      "CheckoutRequestID": "ws_CO_31032026200051496799011954",
+      "ResultCode": 0,
+      "ResultDesc": "The service request is processed successfully.",
+      "CallbackMetadata": {
+        "Item": [
+          {
+            "Name": "Amount",
+            "Value": 1.0
+          },
+          {
+            "Name": "MpesaReceiptNumber",
+            "Value": "UCVN5B2XPF"
+          },
+          {
+            "Name": "Balance"
+          },
+          {
+            "Name": "TransactionDate",
+            "Value": 20260331200100
+          },
+          {
+            "Name": "PhoneNumber",
+            "Value": 254799011954
+          }
+        ]
+      }
+    }
+  }
+}
+WARNING 2026-03-31 20:01:02,602 views 3532 10564 Transaction ws_CO_31032026200051496799011954 failed: The service request is processed successfully.
+INFO 2026-03-31 20:48:33,896 mpesa_config 6768 2596 Initiating STK Push - Phone: 254799011954, Amount: 251.0
+INFO 2026-03-31 20:48:33,897 mpesa_config 6768 2596 Formatted phone: 254799011954
+INFO 2026-03-31 20:48:35,330 mpesa_config 6768 2596 Successfully got access token
+INFO 2026-03-31 20:48:35,334 mpesa_config 6768 2596 Sending request to M-Pesa
+INFO 2026-03-31 20:48:37,042 mpesa_config 6768 2596 Response status: 200
+INFO 2026-03-31 20:48:37,043 mpesa_config 6768 2596 STK Push successful: ws_CO_31032026204835602799011954
+INFO 2026-03-31 20:48:52,728 views 6768 19712 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "e3e5-4a44-a094-e30a1a20e5652117",
+      "CheckoutRequestID": "ws_CO_31032026204835602799011954",
+      "ResultCode": 1032,
+      "ResultDesc": "Request Cancelled by user."
+    }
+  }
+}
+WARNING 2026-03-31 20:48:52,757 views 6768 19712 Transaction ws_CO_31032026204835602799011954 failed: Request Cancelled by user.
+INFO 2026-03-31 20:49:25,137 mpesa_config 6768 2596 Initiating STK Push - Phone: 254799011954, Amount: 10751.0
+INFO 2026-03-31 20:49:25,138 mpesa_config 6768 2596 Formatted phone: 254799011954
+INFO 2026-03-31 20:49:26,292 mpesa_config 6768 2596 Successfully got access token
+INFO 2026-03-31 20:49:26,300 mpesa_config 6768 2596 Sending request to M-Pesa
+INFO 2026-03-31 20:49:27,934 mpesa_config 6768 2596 Response status: 200
+INFO 2026-03-31 20:49:27,935 mpesa_config 6768 2596 STK Push successful: ws_CO_31032026204926519799011954
+INFO 2026-03-31 20:49:35,468 views 6768 18528 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b105970",
+      "CheckoutRequestID": "ws_CO_31032026204926519799011954",
+      "ResultCode": 1,
+      "ResultDesc": "The balance is insufficient for the transaction."
+    }
+  }
+}
+WARNING 2026-03-31 20:49:35,500 views 6768 18528 Transaction ws_CO_31032026204926519799011954 failed: The balance is insufficient for the transaction.
+INFO 2026-03-31 20:51:43,600 mpesa_config 6768 2596 Initiating STK Push - Phone: 254799011954, Amount: 251.0
+INFO 2026-03-31 20:51:43,601 mpesa_config 6768 2596 Formatted phone: 254799011954
+INFO 2026-03-31 20:51:44,876 mpesa_config 6768 2596 Successfully got access token
+INFO 2026-03-31 20:51:44,880 mpesa_config 6768 2596 Sending request to M-Pesa
+INFO 2026-03-31 20:51:46,208 mpesa_config 6768 2596 Response status: 200
+INFO 2026-03-31 20:51:46,209 mpesa_config 6768 2596 STK Push successful: ws_CO_31032026205144858799011954
+INFO 2026-03-31 20:51:54,894 views 6768 8492 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b106072",
+      "CheckoutRequestID": "ws_CO_31032026205144858799011954",
+      "ResultCode": 0,
+      "ResultDesc": "The service request is processed successfully.",
+      "CallbackMetadata": {
+        "Item": [
+          {
+            "Name": "Amount",
+            "Value": 251.0
+          },
+          {
+            "Name": "MpesaReceiptNumber",
+            "Value": "UCVN5B36BE"
+          },
+          {
+            "Name": "Balance"
+          },
+          {
+            "Name": "TransactionDate",
+            "Value": 20260331205152
+          },
+          {
+            "Name": "PhoneNumber",
+            "Value": 254799011954
+          }
+        ]
+      }
+    }
+  }
+}
+WARNING 2026-03-31 20:51:54,921 views 6768 8492 Transaction ws_CO_31032026205144858799011954 failed: The service request is processed successfully.
+INFO 2026-03-31 21:27:18,820 mpesa_config 6768 21420 Initiating STK Push - Phone: 254799011954, Amount: 1.0
+INFO 2026-03-31 21:27:18,822 mpesa_config 6768 21420 Formatted phone: 254799011954
+INFO 2026-03-31 21:27:20,176 mpesa_config 6768 21420 Successfully got access token
+INFO 2026-03-31 21:27:20,180 mpesa_config 6768 21420 Sending request to M-Pesa
+INFO 2026-03-31 21:27:21,506 mpesa_config 6768 21420 Response status: 200
+INFO 2026-03-31 21:27:21,507 mpesa_config 6768 21420 STK Push successful: ws_CO_31032026212720025799011954
+INFO 2026-03-31 21:27:32,928 views 6768 3672 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b107152",
+      "CheckoutRequestID": "ws_CO_31032026212720025799011954",
+      "ResultCode": 0,
+      "ResultDesc": "The service request is processed successfully.",
+      "CallbackMetadata": {
+        "Item": [
+          {
+            "Name": "Amount",
+            "Value": 1.0
+          },
+          {
+            "Name": "MpesaReceiptNumber",
+            "Value": "UCVN5B3DHW"
+          },
+          {
+            "Name": "Balance"
+          },
+          {
+            "Name": "TransactionDate",
+            "Value": 20260331212730
+          },
+          {
+            "Name": "PhoneNumber",
+            "Value": 254799011954
+          }
+        ]
+      }
+    }
+  }
+}
+WARNING 2026-03-31 21:27:32,961 views 6768 3672 Transaction ws_CO_31032026212720025799011954 failed: The service request is processed successfully.
+INFO 2026-03-31 21:29:03,630 mpesa_config 6768 21420 Initiating STK Push - Phone: 254799011954, Amount: 1.0
+INFO 2026-03-31 21:29:03,631 mpesa_config 6768 21420 Formatted phone: 254799011954
+INFO 2026-03-31 21:29:04,715 mpesa_config 6768 21420 Successfully got access token
+INFO 2026-03-31 21:29:04,718 mpesa_config 6768 21420 Sending request to M-Pesa
+INFO 2026-03-31 21:29:06,164 mpesa_config 6768 21420 Response status: 200
+INFO 2026-03-31 21:29:06,165 mpesa_config 6768 21420 STK Push successful: ws_CO_31032026212904643799011954
+INFO 2026-03-31 21:29:13,175 views 6768 25024 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b107220",
+      "CheckoutRequestID": "ws_CO_31032026212904643799011954",
+      "ResultCode": 1032,
+      "ResultDesc": "Request Cancelled by user."
+    }
+  }
+}
+WARNING 2026-03-31 21:29:13,197 views 6768 25024 Transaction ws_CO_31032026212904643799011954 failed: Request Cancelled by user.
+INFO 2026-04-01 10:48:10,426 mpesa_config 20252 29712 Initiating STK Push - Phone: 254799011954, Amount: 1.0
+INFO 2026-04-01 10:48:10,426 mpesa_config 20252 29712 Formatted phone: 254799011954
+INFO 2026-04-01 10:48:12,046 mpesa_config 20252 29712 Successfully got access token
+INFO 2026-04-01 10:48:12,052 mpesa_config 20252 29712 Sending request to M-Pesa
+INFO 2026-04-01 10:48:13,775 mpesa_config 20252 29712 Response status: 200
+INFO 2026-04-01 10:48:13,775 mpesa_config 20252 29712 STK Push successful: ws_CO_01042026104812169799011954
+INFO 2026-04-01 10:48:27,808 views 20252 7120 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b145105",
+      "CheckoutRequestID": "ws_CO_01042026104812169799011954",
+      "ResultCode": 0,
+      "ResultDesc": "The service request is processed successfully.",
+      "CallbackMetadata": {
+        "Item": [
+          {
+            "Name": "Amount",
+            "Value": 1.0
+          },
+          {
+            "Name": "MpesaReceiptNumber",
+            "Value": "UD1N5B4NRQ"
+          },
+          {
+            "Name": "Balance"
+          },
+          {
+            "Name": "TransactionDate",
+            "Value": 20260401104825
+          },
+          {
+            "Name": "PhoneNumber",
+            "Value": 254799011954
+          }
+        ]
+      }
+    }
+  }
+}
+WARNING 2026-04-01 10:48:27,836 views 20252 7120 Transaction ws_CO_01042026104812169799011954 failed: The service request is processed successfully.
+INFO 2026-04-01 10:49:10,328 mpesa_config 20252 29712 Initiating STK Push - Phone: 254799011954, Amount: 1.0
+INFO 2026-04-01 10:49:10,329 mpesa_config 20252 29712 Formatted phone: 254799011954
+INFO 2026-04-01 10:49:11,834 mpesa_config 20252 29712 Successfully got access token
+INFO 2026-04-01 10:49:11,839 mpesa_config 20252 29712 Sending request to M-Pesa
+INFO 2026-04-01 10:49:13,545 mpesa_config 20252 29712 Response status: 200
+INFO 2026-04-01 10:49:13,546 mpesa_config 20252 29712 STK Push successful: ws_CO_01042026104911954799011954
+INFO 2026-04-01 10:49:21,287 views 20252 13596 Received M-Pesa callback: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "e3e5-4a44-a094-e30a1a20e56528417",
+      "CheckoutRequestID": "ws_CO_01042026104911954799011954",
+      "ResultCode": 1032,
+      "ResultDesc": "Request Cancelled by user."
+    }
+  }
+}
+WARNING 2026-04-01 10:49:21,312 views 20252 13596 Transaction ws_CO_01042026104911954799011954 failed: Request Cancelled by user.
+INFO 2026-04-01 11:23:07,254 views 22316 13344 Result Code: 1037
+INFO 2026-04-01 11:23:07,256 views 22316 13344 Result Description: DS timeout user cannot be reached.
+INFO 2026-04-01 11:23:07,257 views 22316 13344 Checkout Request ID: ws_CO_01042026112304261708374149
+ERROR 2026-04-01 11:23:07,337 views 22316 13344 Reason: DS timeout user cannot be reached.
+INFO 2026-04-01 11:23:09,116 views 22316 28548 Found transaction in DB: Status=failed, Receipt=None
+INFO 2026-04-01 11:23:23,469 views 22316 15316 Result Code: 1037
+INFO 2026-04-01 11:23:23,470 views 22316 15316 Result Description: DS timeout user cannot be reached.
+INFO 2026-04-01 11:23:23,471 views 22316 15316 Checkout Request ID: ws_CO_01042026112320612708374149
+ERROR 2026-04-01 11:23:23,532 views 22316 15316 Reason: DS timeout user cannot be reached.
+INFO 2026-04-01 11:23:25,891 views 22316 28548 Found transaction in DB: Status=failed, Receipt=None
+INFO 2026-04-01 11:23:42,192 views 22316 18540 Result Code: 1037
+INFO 2026-04-01 11:23:42,194 views 22316 18540 Result Description: DS timeout user cannot be reached.
+INFO 2026-04-01 11:23:42,195 views 22316 18540 Checkout Request ID: ws_CO_01042026112339262708374149
+ERROR 2026-04-01 11:23:42,269 views 22316 18540 Reason: DS timeout user cannot be reached.
+INFO 2026-04-01 11:23:44,899 views 22316 28548 Found transaction in DB: Status=failed, Receipt=None
+INFO 2026-04-01 11:24:23,909 views 22316 28548 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:24:26,907 views 22316 28548 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:24:29,894 views 22316 28548 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:24:32,899 views 22316 28548 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:24:35,914 views 22316 28548 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:24:38,911 views 22316 28548 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:24:41,468 views 22316 28548 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:24:43,995 views 22316 28548 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:24:44,929 views 22316 8880 Result Code: 1032
+INFO 2026-04-01 11:24:44,929 views 22316 8880 Result Description: Request Cancelled by user.
+INFO 2026-04-01 11:24:44,930 views 22316 8880 Checkout Request ID: ws_CO_01042026112418241799011954
+ERROR 2026-04-01 11:24:44,996 views 22316 8880 Reason: Request Cancelled by user.
+INFO 2026-04-01 11:24:47,760 views 22316 28548 Found transaction in DB: Status=failed, Receipt=None
+INFO 2026-04-01 11:28:23,131 views 21028 27908 Initiating payment - Phone: 254708374149, Amount: 251, Reference: GM2651901
+INFO 2026-04-01 11:28:23,132 views 21028 27908 Formatted phone: 254708374149
+INFO 2026-04-01 11:28:24,771 views 21028 27908 Successfully got access token
+INFO 2026-04-01 11:28:24,775 views 21028 27908 Sending STK push request to M-Pesa
+INFO 2026-04-01 11:28:26,517 views 21028 27908 M-Pesa response status: 200
+INFO 2026-04-01 11:28:26,518 views 21028 27908 M-Pesa response: {
+  "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b146677",
+  "CheckoutRequestID": "ws_CO_01042026112824745708374149",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 11:28:26,547 views 21028 27908 STK push initiated successfully! Checkout ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:29,884 views 21028 27908 Checking status for checkout ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:29,893 views 21028 27908 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:28:32,875 views 21028 27908 Checking status for checkout ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:32,881 views 21028 27908 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:28:35,879 views 21028 27908 Checking status for checkout ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:35,885 views 21028 27908 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:28:38,879 views 21028 27908 Checking status for checkout ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:38,886 views 21028 27908 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:28:41,886 views 21028 27908 Checking status for checkout ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:41,892 views 21028 27908 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:28:44,884 views 21028 27908 Checking status for checkout ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:44,889 views 21028 27908 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:28:47,876 views 21028 27908 Checking status for checkout ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:47,882 views 21028 27908 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:28:50,883 views 21028 27908 Checking status for checkout ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:50,888 views 21028 27908 Found transaction in DB: Status=pending, Receipt=None
+INFO 2026-04-01 11:28:52,618 views 21028 8768 M-PESA CALLBACK RECEIVED: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b146677",
+      "CheckoutRequestID": "ws_CO_01042026112824745708374149",
+      "ResultCode": 1037,
+      "ResultDesc": "No response from user."
+    }
+  }
+}
+INFO 2026-04-01 11:28:52,619 views 21028 8768 Result Code: 1037
+INFO 2026-04-01 11:28:52,620 views 21028 8768 Result Description: No response from user.
+INFO 2026-04-01 11:28:52,620 views 21028 8768 Checkout Request ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:52,625 views 21028 8768 Found transaction: ID=26, Status=pending
+ERROR 2026-04-01 11:28:52,655 views 21028 8768 TRANSACTION FAILED: No response from user.
+INFO 2026-04-01 11:28:53,884 views 21028 27908 Checking status for checkout ID: ws_CO_01042026112824745708374149
+INFO 2026-04-01 11:28:53,893 views 21028 27908 Found transaction in DB: Status=failed, Receipt=None
+INFO 2026-04-01 11:39:01,029 views 25592 11068 ==================================================
+INFO 2026-04-01 11:39:01,030 views 25592 11068 INITIATING PAYMENT
+INFO 2026-04-01 11:39:01,030 views 25592 11068 Phone: 254708374149
+INFO 2026-04-01 11:39:01,030 views 25592 11068 Amount: 251
+INFO 2026-04-01 11:39:01,030 views 25592 11068 Reference: GM2618750
+INFO 2026-04-01 11:39:01,031 views 25592 11068 ==================================================
+INFO 2026-04-01 11:39:01,031 views 25592 11068 Formatted phone: 254708374149
+INFO 2026-04-01 11:39:02,100 views 25592 11068 Successfully got access token
+INFO 2026-04-01 11:39:02,104 views 25592 11068 Access token obtained successfully
+INFO 2026-04-01 11:39:02,105 views 25592 11068 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-01 11:39:02,105 views 25592 11068 Sending STK push request to M-Pesa...
+INFO 2026-04-01 11:39:03,192 views 25592 11068 M-Pesa response status: 200
+INFO 2026-04-01 11:39:03,193 views 25592 11068 M-Pesa response: {
+  "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b147162",
+  "CheckoutRequestID": "ws_CO_01042026113901505708374149",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 11:39:03,204 views 25592 11068 SUCCESS: STK push initiated! Checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:03,205 views 25592 11068 Please check phone 254708374149 for STK push prompt
+INFO 2026-04-01 11:39:06,883 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:06,886 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:06,886 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:06,887 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:06,887 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:06,887 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:09,882 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:09,884 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:09,884 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:09,884 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:09,885 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:09,885 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:12,874 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:12,875 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:12,876 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:12,876 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:12,876 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:12,877 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:15,868 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:15,871 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:15,871 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:15,871 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:15,871 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:15,872 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:18,875 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:18,878 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:18,878 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:18,878 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:18,879 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:18,879 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:21,869 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:21,871 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:21,871 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:21,872 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:21,872 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:21,872 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:24,876 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:24,878 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:24,878 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:24,878 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:24,879 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:24,879 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:27,876 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:27,878 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:27,878 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:27,878 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:27,878 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:27,878 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:30,870 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:30,872 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:30,873 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:30,873 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:30,873 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:30,873 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:33,873 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:33,876 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:33,876 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:33,876 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:33,876 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:33,877 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:36,868 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:36,870 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:36,871 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:36,871 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:36,871 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:36,871 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:39,882 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:39,885 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:39,885 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:39,885 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:39,886 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:39,886 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:42,874 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:42,876 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:42,876 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:42,877 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:42,877 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:42,877 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:45,871 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:45,873 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:45,873 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:45,873 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:45,874 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:45,874 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:48,871 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:48,873 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:48,873 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:48,873 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:48,873 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:48,874 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:51,882 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:51,884 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:51,884 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:51,885 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:51,885 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:51,885 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:54,869 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:54,871 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:54,872 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:54,872 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:54,872 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:54,872 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:39:57,879 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:39:57,881 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:39:57,882 views 25592 11068   Status: pending
+INFO 2026-04-01 11:39:57,882 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:39:57,882 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:39:57,882 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:40:00,876 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:40:00,878 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:40:00,878 views 25592 11068   Status: pending
+INFO 2026-04-01 11:40:00,878 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:40:00,878 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:40:00,879 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:40:43,883 views 25592 11068 Checking status for checkout ID: ws_CO_01042026113901505708374149
+INFO 2026-04-01 11:40:43,886 views 25592 11068 Found transaction in DB: ID=27
+INFO 2026-04-01 11:40:43,887 views 25592 11068   Status: pending
+INFO 2026-04-01 11:40:43,887 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:40:43,888 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:40:43,888 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:44:36,480 views 25592 11068 ==================================================
+INFO 2026-04-01 11:44:36,480 views 25592 11068 INITIATING PAYMENT
+INFO 2026-04-01 11:44:36,481 views 25592 11068 Phone: 254799011954
+INFO 2026-04-01 11:44:36,481 views 25592 11068 Amount: 1
+INFO 2026-04-01 11:44:36,481 views 25592 11068 Reference: GM2670230
+INFO 2026-04-01 11:44:36,481 views 25592 11068 ==================================================
+INFO 2026-04-01 11:44:36,481 views 25592 11068 Formatted phone: 254799011954
+INFO 2026-04-01 11:44:37,520 views 25592 11068 Successfully got access token
+INFO 2026-04-01 11:44:37,524 views 25592 11068 Access token obtained successfully
+INFO 2026-04-01 11:44:37,524 views 25592 11068 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-01 11:44:37,525 views 25592 11068 Sending STK push request to M-Pesa...
+INFO 2026-04-01 11:44:38,665 views 25592 11068 M-Pesa response status: 200
+INFO 2026-04-01 11:44:38,666 views 25592 11068 M-Pesa response: {
+  "MerchantRequestID": "e3e5-4a44-a094-e30a1a20e56530561",
+  "CheckoutRequestID": "ws_CO_01042026114436977799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 11:44:38,682 views 25592 11068 SUCCESS: STK push initiated! Checkout ID: ws_CO_01042026114436977799011954
+INFO 2026-04-01 11:44:38,682 views 25592 11068 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-01 11:44:41,886 views 25592 11068 Checking status for checkout ID: ws_CO_01042026114436977799011954
+INFO 2026-04-01 11:44:41,889 views 25592 11068 Found transaction in DB: ID=28
+INFO 2026-04-01 11:44:41,889 views 25592 11068   Status: pending
+INFO 2026-04-01 11:44:41,890 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:44:41,890 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:44:41,890 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:44:44,878 views 25592 11068 Checking status for checkout ID: ws_CO_01042026114436977799011954
+INFO 2026-04-01 11:44:44,880 views 25592 11068 Found transaction in DB: ID=28
+INFO 2026-04-01 11:44:44,880 views 25592 11068   Status: pending
+INFO 2026-04-01 11:44:44,880 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:44:44,880 views 25592 11068   Result Code: None
+INFO 2026-04-01 11:44:44,881 views 25592 11068   Result Desc: None
+INFO 2026-04-01 11:44:47,542 views 25592 872 M-PESA CALLBACK RECEIVED: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "e3e5-4a44-a094-e30a1a20e56530561",
+      "CheckoutRequestID": "ws_CO_01042026114436977799011954",
+      "ResultCode": 0,
+      "ResultDesc": "The service request is processed successfully.",
+      "CallbackMetadata": {
+        "Item": [
+          {
+            "Name": "Amount",
+            "Value": 1
+          },
+          {
+            "Name": "MpesaReceiptNumber",
+            "Value": "UD1N5B4QSO"
+          },
+          {
+            "Name": "Balance"
+          },
+          {
+            "Name": "TransactionDate",
+            "Value": 20260401114445
+          },
+          {
+            "Name": "PhoneNumber",
+            "Value": 254799011954
+          }
+        ]
+      }
+    }
+  }
+}
+INFO 2026-04-01 11:44:47,543 views 25592 872 Result Code: 0
+INFO 2026-04-01 11:44:47,543 views 25592 872 Result Description: The service request is processed successfully.
+INFO 2026-04-01 11:44:47,543 views 25592 872 Checkout Request ID: ws_CO_01042026114436977799011954
+INFO 2026-04-01 11:44:47,545 views 25592 872 Found transaction: ID=28, Status=pending
+ERROR 2026-04-01 11:44:47,558 views 25592 872 TRANSACTION FAILED: The service request is processed successfully.
+INFO 2026-04-01 11:44:47,879 views 25592 11068 Checking status for checkout ID: ws_CO_01042026114436977799011954
+INFO 2026-04-01 11:44:47,883 views 25592 11068 Found transaction in DB: ID=28
+INFO 2026-04-01 11:44:47,883 views 25592 11068   Status: failed
+INFO 2026-04-01 11:44:47,884 views 25592 11068   Receipt: None
+INFO 2026-04-01 11:44:47,884 views 25592 11068   Result Code: 0
+INFO 2026-04-01 11:44:47,884 views 25592 11068   Result Desc: The service request is processed successfully.
+INFO 2026-04-01 11:57:59,440 views 25592 21412 ==================================================
+INFO 2026-04-01 11:57:59,441 views 25592 21412 INITIATING PAYMENT
+INFO 2026-04-01 11:57:59,441 views 25592 21412 Phone: 254708374149
+INFO 2026-04-01 11:57:59,442 views 25592 21412 Amount: 251
+INFO 2026-04-01 11:57:59,442 views 25592 21412 Reference: GM2613156
+INFO 2026-04-01 11:57:59,442 views 25592 21412 ==================================================
+INFO 2026-04-01 11:57:59,442 views 25592 21412 Formatted phone: 254708374149
+INFO 2026-04-01 11:58:00,308 views 25592 21412 Successfully got access token
+INFO 2026-04-01 11:58:00,311 views 25592 21412 Access token obtained successfully
+INFO 2026-04-01 11:58:00,311 views 25592 21412 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-01 11:58:00,311 views 25592 21412 Sending STK push request to M-Pesa...
+INFO 2026-04-01 11:58:01,404 views 25592 21412 M-Pesa response status: 200
+INFO 2026-04-01 11:58:01,404 views 25592 21412 M-Pesa response: {
+  "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b147959",
+  "CheckoutRequestID": "ws_CO_01042026115759793708374149",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 11:58:01,424 views 25592 21412 SUCCESS: STK push initiated! Checkout ID: ws_CO_01042026115759793708374149
+INFO 2026-04-01 11:58:01,425 views 25592 21412 Please check phone 254708374149 for STK push prompt
+INFO 2026-04-01 11:58:02,557 views 25592 23680 M-PESA CALLBACK RECEIVED: {
+  "Body": {
+    "stkCallback": {
+      "MerchantRequestID": "6814-43a7-8e14-ef061c74f29b147959",
+      "CheckoutRequestID": "ws_CO_01042026115759793708374149",
+      "ResultCode": 1037,
+      "ResultDesc": "DS timeout user cannot be reached."
+    }
+  }
+}
+INFO 2026-04-01 11:58:02,558 views 25592 23680 Result Code: 1037
+INFO 2026-04-01 11:58:02,558 views 25592 23680 Result Description: DS timeout user cannot be reached.
+INFO 2026-04-01 11:58:02,559 views 25592 23680 Checkout Request ID: ws_CO_01042026115759793708374149
+INFO 2026-04-01 11:58:02,562 views 25592 23680 Found transaction: ID=29, Status=pending
+ERROR 2026-04-01 11:58:02,579 views 25592 23680 TRANSACTION FAILED: DS timeout user cannot be reached.
+INFO 2026-04-01 11:58:04,441 views 25592 21412 Checking status for checkout ID: ws_CO_01042026115759793708374149
+INFO 2026-04-01 11:58:04,446 views 25592 21412 Found transaction in DB: ID=29
+INFO 2026-04-01 11:58:04,446 views 25592 21412   Status: failed
+INFO 2026-04-01 11:58:04,447 views 25592 21412   Receipt: None
+INFO 2026-04-01 11:58:04,447 views 25592 21412   Result Code: 1037
+INFO 2026-04-01 11:58:04,448 views 25592 21412   Result Desc: DS timeout user cannot be reached.
+INFO 2026-04-01 15:05:15,948 views 1176 7272 ==================================================
+INFO 2026-04-01 15:05:15,949 views 1176 7272 INITIATING PAYMENT
+INFO 2026-04-01 15:05:15,951 views 1176 7272 Phone: 254708374149
+INFO 2026-04-01 15:05:15,952 views 1176 7272 Amount: 1
+INFO 2026-04-01 15:05:15,952 views 1176 7272 Reference: GM2622732
+INFO 2026-04-01 15:05:15,953 views 1176 7272 ==================================================
+INFO 2026-04-01 15:05:15,954 views 1176 7272 Formatted phone: 254708374149
+INFO 2026-04-01 15:05:17,409 views 1176 7272 Successfully got access token
+INFO 2026-04-01 15:05:17,413 views 1176 7272 Access token obtained successfully
+INFO 2026-04-01 15:05:17,413 views 1176 7272 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-01 15:05:17,414 views 1176 7272 Sending STK push request to M-Pesa...
+INFO 2026-04-01 15:05:18,833 views 1176 7272 M-Pesa response status: 200
+INFO 2026-04-01 15:05:18,834 views 1176 7272 M-Pesa response: {
+  "MerchantRequestID": "b041-443c-ba93-97ba086af40f1282",
+  "CheckoutRequestID": "ws_CO_01042026150517680708374149",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 15:05:18,865 views 1176 7272 SUCCESS: STK push initiated! Checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:18,865 views 1176 7272 Please check phone 254708374149 for STK push prompt
+INFO 2026-04-01 15:05:21,941 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:21,947 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:21,948 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:21,949 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:21,949 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:21,950 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:24,963 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:24,969 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:24,970 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:24,970 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:24,974 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:24,976 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:28,009 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:28,013 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:28,013 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:28,014 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:28,014 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:28,014 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:30,944 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:30,948 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:30,949 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:30,949 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:30,949 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:30,950 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:33,954 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:33,960 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:33,960 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:33,961 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:33,961 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:33,961 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:36,958 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:36,965 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:36,966 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:36,967 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:36,969 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:36,970 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:39,951 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:39,957 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:39,957 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:39,958 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:39,958 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:39,959 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:42,953 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:42,958 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:42,959 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:42,960 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:42,961 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:42,962 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:45,948 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:45,958 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:45,959 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:45,960 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:45,960 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:45,961 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:48,947 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:48,950 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:48,951 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:48,951 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:48,952 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:48,952 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:51,943 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:51,948 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:51,948 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:51,949 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:51,950 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:51,951 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:54,885 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:54,889 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:54,889 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:54,890 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:54,890 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:54,890 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:05:57,885 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:05:57,889 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:05:57,890 views 1176 7272   Status: pending
+INFO 2026-04-01 15:05:57,890 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:05:57,891 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:05:57,891 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:00,887 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150517680708374149
+INFO 2026-04-01 15:06:00,891 views 1176 7272 Found transaction in DB: ID=30
+INFO 2026-04-01 15:06:00,892 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:00,892 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:00,893 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:00,894 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:01,377 views 1176 7272 ==================================================
+INFO 2026-04-01 15:06:01,377 views 1176 7272 INITIATING PAYMENT
+INFO 2026-04-01 15:06:01,378 views 1176 7272 Phone: 254799011954
+INFO 2026-04-01 15:06:01,379 views 1176 7272 Amount: 1
+INFO 2026-04-01 15:06:01,380 views 1176 7272 Reference: GM2602118
+INFO 2026-04-01 15:06:01,381 views 1176 7272 ==================================================
+INFO 2026-04-01 15:06:01,382 views 1176 7272 Formatted phone: 254799011954
+INFO 2026-04-01 15:06:02,558 views 1176 7272 Successfully got access token
+INFO 2026-04-01 15:06:02,562 views 1176 7272 Access token obtained successfully
+INFO 2026-04-01 15:06:02,563 views 1176 7272 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-01 15:06:02,563 views 1176 7272 Sending STK push request to M-Pesa...
+INFO 2026-04-01 15:06:03,781 views 1176 7272 M-Pesa response status: 200
+INFO 2026-04-01 15:06:03,782 views 1176 7272 M-Pesa response: {
+  "MerchantRequestID": "b041-443c-ba93-97ba086af40f1294",
+  "CheckoutRequestID": "ws_CO_01042026150602624799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 15:06:03,800 views 1176 7272 SUCCESS: STK push initiated! Checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:03,800 views 1176 7272 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-01 15:06:06,818 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:06,824 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:06,826 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:06,834 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:06,835 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:06,835 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:09,819 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:09,828 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:09,829 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:09,832 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:09,834 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:09,835 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:12,813 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:12,818 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:12,818 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:12,819 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:12,820 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:12,820 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:15,813 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:15,818 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:15,818 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:15,819 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:15,819 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:15,819 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:18,951 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:18,957 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:18,958 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:18,959 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:18,960 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:18,961 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:21,956 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:21,961 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:21,961 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:21,962 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:21,963 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:21,964 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:24,957 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:24,962 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:24,962 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:24,963 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:24,964 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:24,964 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:27,944 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:27,948 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:27,948 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:27,948 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:27,948 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:27,949 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:30,948 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:30,952 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:30,953 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:30,953 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:30,953 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:30,954 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:33,945 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:33,950 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:33,951 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:33,951 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:33,953 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:33,956 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:36,951 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:36,957 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:36,957 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:36,958 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:36,959 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:36,960 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:39,808 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:39,811 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:39,812 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:39,812 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:39,812 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:39,813 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:42,950 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:42,958 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:42,959 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:42,960 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:42,961 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:42,962 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:45,953 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:45,960 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:45,961 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:45,964 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:45,966 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:45,967 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:48,946 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:48,954 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:48,955 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:48,955 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:48,956 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:48,957 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:51,944 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:51,949 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:51,949 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:51,949 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:51,950 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:51,950 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:54,955 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:54,961 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:54,962 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:54,963 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:54,964 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:54,965 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:06:57,958 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:06:57,964 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:06:57,965 views 1176 7272   Status: pending
+INFO 2026-04-01 15:06:57,966 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:06:57,967 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:06:57,968 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:07:00,949 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:07:00,955 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:07:00,956 views 1176 7272   Status: pending
+INFO 2026-04-01 15:07:00,957 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:07:00,957 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:07:00,958 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:07:03,953 views 1176 7272 Checking status for checkout ID: ws_CO_01042026150602624799011954
+INFO 2026-04-01 15:07:03,959 views 1176 7272 Found transaction in DB: ID=31
+INFO 2026-04-01 15:07:03,960 views 1176 7272   Status: pending
+INFO 2026-04-01 15:07:03,962 views 1176 7272   Receipt: None
+INFO 2026-04-01 15:07:03,963 views 1176 7272   Result Code: None
+INFO 2026-04-01 15:07:03,963 views 1176 7272   Result Desc: None
+INFO 2026-04-01 15:24:08,592 views 3556 23680 ==================================================
+INFO 2026-04-01 15:24:08,593 views 3556 23680 INITIATING PAYMENT
+INFO 2026-04-01 15:24:08,593 views 3556 23680 Phone: 254708374149
+INFO 2026-04-01 15:24:08,594 views 3556 23680 Amount: 1
+INFO 2026-04-01 15:24:08,594 views 3556 23680 Reference: GM2673517
+INFO 2026-04-01 15:24:08,596 views 3556 23680 ==================================================
+INFO 2026-04-01 15:24:08,600 views 3556 23680 Formatted phone: 254708374149
+INFO 2026-04-01 15:24:09,940 views 3556 23680 Successfully got access token
+INFO 2026-04-01 15:24:09,942 views 3556 23680 Access token obtained successfully
+INFO 2026-04-01 15:24:09,943 views 3556 23680 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-01 15:24:09,943 views 3556 23680 Sending STK push request to M-Pesa...
+INFO 2026-04-01 15:24:11,211 views 3556 23680 M-Pesa response status: 200
+INFO 2026-04-01 15:24:11,212 views 3556 23680 M-Pesa response: {
+  "MerchantRequestID": "4add-4789-bc0e-9f010e7eacee1994",
+  "CheckoutRequestID": "ws_CO_01042026152410006708374149",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 15:24:11,235 views 3556 23680 SUCCESS: STK push initiated! Checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:11,237 views 3556 23680 Please check phone 254708374149 for STK push prompt
+INFO 2026-04-01 15:24:14,956 views 3556 23680 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:14,965 views 3556 23680 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:14,965 views 3556 23680   Status: pending
+INFO 2026-04-01 15:24:14,966 views 3556 23680   Receipt: None
+INFO 2026-04-01 15:24:14,966 views 3556 23680   Result Code: None
+INFO 2026-04-01 15:24:14,968 views 3556 23680   Result Desc: None
+INFO 2026-04-01 15:24:17,955 views 3556 23680 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:17,960 views 3556 23680 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:17,961 views 3556 23680   Status: pending
+INFO 2026-04-01 15:24:17,961 views 3556 23680   Receipt: None
+INFO 2026-04-01 15:24:17,962 views 3556 23680   Result Code: None
+INFO 2026-04-01 15:24:17,963 views 3556 23680   Result Desc: None
+INFO 2026-04-01 15:24:20,946 views 3556 23680 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:20,951 views 3556 23680 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:20,952 views 3556 23680   Status: pending
+INFO 2026-04-01 15:24:20,952 views 3556 23680   Receipt: None
+INFO 2026-04-01 15:24:20,953 views 3556 23680   Result Code: None
+INFO 2026-04-01 15:24:20,953 views 3556 23680   Result Desc: None
+INFO 2026-04-01 15:24:23,955 views 3556 23680 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:23,960 views 3556 23680 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:23,960 views 3556 23680   Status: pending
+INFO 2026-04-01 15:24:23,961 views 3556 23680   Receipt: None
+INFO 2026-04-01 15:24:23,962 views 3556 23680   Result Code: None
+INFO 2026-04-01 15:24:23,962 views 3556 23680   Result Desc: None
+INFO 2026-04-01 15:24:26,263 views 3556 23680 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:26,268 views 3556 23680 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:26,269 views 3556 23680   Status: pending
+INFO 2026-04-01 15:24:26,270 views 3556 23680   Receipt: None
+INFO 2026-04-01 15:24:26,270 views 3556 23680   Result Code: None
+INFO 2026-04-01 15:24:26,271 views 3556 23680   Result Desc: None
+INFO 2026-04-01 15:24:29,951 views 3556 23680 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:29,959 views 3556 23680 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:29,960 views 3556 23680   Status: pending
+INFO 2026-04-01 15:24:29,961 views 3556 23680   Receipt: None
+INFO 2026-04-01 15:24:29,962 views 3556 23680   Result Code: None
+INFO 2026-04-01 15:24:29,963 views 3556 23680   Result Desc: None
+INFO 2026-04-01 15:24:32,951 views 3556 23680 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:32,958 views 3556 23680 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:32,959 views 3556 23680   Status: pending
+INFO 2026-04-01 15:24:32,960 views 3556 23680   Receipt: None
+INFO 2026-04-01 15:24:32,961 views 3556 23680   Result Code: None
+INFO 2026-04-01 15:24:32,962 views 3556 23680   Result Desc: None
+INFO 2026-04-01 15:24:35,262 views 3556 23680 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:35,267 views 3556 23680 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:35,267 views 3556 23680   Status: pending
+INFO 2026-04-01 15:24:35,268 views 3556 23680   Receipt: None
+INFO 2026-04-01 15:24:35,268 views 3556 23680   Result Code: None
+INFO 2026-04-01 15:24:35,269 views 3556 23680   Result Desc: None
+INFO 2026-04-01 15:24:38,949 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:38,955 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:38,956 views 3556 20852   Status: pending
+INFO 2026-04-01 15:24:38,959 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:24:38,961 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:24:38,961 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:24:41,946 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:41,951 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:41,954 views 3556 20852   Status: pending
+INFO 2026-04-01 15:24:41,957 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:24:41,957 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:24:41,958 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:24:44,950 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:44,958 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:44,959 views 3556 20852   Status: pending
+INFO 2026-04-01 15:24:44,960 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:24:44,960 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:24:44,961 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:24:47,951 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:47,956 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:47,957 views 3556 20852   Status: pending
+INFO 2026-04-01 15:24:47,958 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:24:47,959 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:24:47,959 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:24:50,959 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:50,968 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:50,970 views 3556 20852   Status: pending
+INFO 2026-04-01 15:24:50,971 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:24:50,972 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:24:50,973 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:24:53,954 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:53,958 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:53,960 views 3556 20852   Status: pending
+INFO 2026-04-01 15:24:53,961 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:24:53,963 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:24:53,964 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:24:56,945 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:56,955 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:56,956 views 3556 20852   Status: pending
+INFO 2026-04-01 15:24:56,957 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:24:56,958 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:24:56,959 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:24:59,954 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:24:59,959 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:24:59,960 views 3556 20852   Status: pending
+INFO 2026-04-01 15:24:59,961 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:24:59,962 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:24:59,962 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:25:02,949 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:25:02,956 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:25:02,957 views 3556 20852   Status: pending
+INFO 2026-04-01 15:25:02,958 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:25:02,959 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:25:02,960 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:25:05,949 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:25:05,955 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:25:05,957 views 3556 20852   Status: pending
+INFO 2026-04-01 15:25:05,957 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:25:05,967 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:25:05,969 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:25:08,955 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:25:08,962 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:25:08,963 views 3556 20852   Status: pending
+INFO 2026-04-01 15:25:08,964 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:25:08,965 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:25:08,966 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:25:11,950 views 3556 20852 Checking status for checkout ID: ws_CO_01042026152410006708374149
+INFO 2026-04-01 15:25:11,956 views 3556 20852 Found transaction in DB: ID=32
+INFO 2026-04-01 15:25:11,957 views 3556 20852   Status: pending
+INFO 2026-04-01 15:25:11,958 views 3556 20852   Receipt: None
+INFO 2026-04-01 15:25:11,959 views 3556 20852   Result Code: None
+INFO 2026-04-01 15:25:11,959 views 3556 20852   Result Desc: None
+INFO 2026-04-01 15:36:55,478 views 4652 12460 ==================================================
+INFO 2026-04-01 15:36:55,478 views 4652 12460 INITIATING PAYMENT
+INFO 2026-04-01 15:36:55,479 views 4652 12460 Phone: 254708374149
+INFO 2026-04-01 15:36:55,479 views 4652 12460 Amount: 1
+INFO 2026-04-01 15:36:55,479 views 4652 12460 Reference: GM2681739
+INFO 2026-04-01 15:36:55,480 views 4652 12460 ==================================================
+INFO 2026-04-01 15:36:55,481 views 4652 12460 Formatted phone: 254708374149
+INFO 2026-04-01 15:36:56,681 views 4652 12460 Successfully got access token
+INFO 2026-04-01 15:36:56,688 views 4652 12460 Access token obtained successfully
+INFO 2026-04-01 15:36:56,689 views 4652 12460 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-01 15:36:56,690 views 4652 12460 Sending STK push request to M-Pesa...
+INFO 2026-04-01 15:36:58,112 views 4652 12460 M-Pesa response status: 200
+INFO 2026-04-01 15:36:58,113 views 4652 12460 M-Pesa response: {
+  "MerchantRequestID": "4add-4789-bc0e-9f010e7eacee2528",
+  "CheckoutRequestID": "ws_CO_01042026153656867708374149",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 15:36:58,137 views 4652 12460 SUCCESS: STK push initiated! Checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:36:58,138 views 4652 12460 Please check phone 254708374149 for STK push prompt
+INFO 2026-04-01 15:37:01,953 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:01,961 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:01,961 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:01,962 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:01,963 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:01,963 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:04,948 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:04,955 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:04,956 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:04,956 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:04,957 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:04,958 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:07,973 views 4652 7104 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:07,987 views 4652 7104 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:07,989 views 4652 7104   Status: pending
+INFO 2026-04-01 15:37:07,990 views 4652 7104   Receipt: None
+INFO 2026-04-01 15:37:07,993 views 4652 7104   Result Code: None
+INFO 2026-04-01 15:37:07,998 views 4652 7104   Result Desc: None
+INFO 2026-04-01 15:37:10,950 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:10,955 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:10,955 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:10,956 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:10,957 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:10,958 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:13,953 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:13,958 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:13,959 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:13,959 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:13,960 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:13,963 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:16,952 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:16,956 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:16,957 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:16,957 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:16,958 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:16,959 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:19,946 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:19,949 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:19,950 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:19,950 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:19,950 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:19,951 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:22,954 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:22,959 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:22,960 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:22,961 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:22,962 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:22,963 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:25,151 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:25,155 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:25,156 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:25,156 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:25,157 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:25,157 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:28,160 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:28,166 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:28,167 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:28,168 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:28,168 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:28,169 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:31,948 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:31,952 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:31,953 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:31,954 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:31,954 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:31,955 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:34,948 views 4652 12460 Checking status for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:34,953 views 4652 12460 Found transaction in DB: ID=33
+INFO 2026-04-01 15:37:34,953 views 4652 12460   Status: pending
+INFO 2026-04-01 15:37:34,954 views 4652 12460   Receipt: None
+INFO 2026-04-01 15:37:34,955 views 4652 12460   Result Code: None
+INFO 2026-04-01 15:37:34,956 views 4652 12460   Result Desc: None
+INFO 2026-04-01 15:37:34,967 views 4652 12460 Manual simulation requested for checkout ID: ws_CO_01042026153656867708374149
+INFO 2026-04-01 15:37:34,993 views 4652 12460 Manually completed transaction: ws_CO_01042026153656867708374149 with receipt: SIM600526153734
+INFO 2026-04-01 15:48:26,497 views 12584 9964 ==================================================
+INFO 2026-04-01 15:48:26,498 views 12584 9964 INITIATING PAYMENT
+INFO 2026-04-01 15:48:26,499 views 12584 9964 Phone: 254799011954
+INFO 2026-04-01 15:48:26,500 views 12584 9964 Amount: 1
+INFO 2026-04-01 15:48:26,501 views 12584 9964 Reference: GM2651772
+INFO 2026-04-01 15:48:26,502 views 12584 9964 ==================================================
+INFO 2026-04-01 15:48:26,503 views 12584 9964 Formatted phone: 254799011954
+INFO 2026-04-01 15:48:27,722 views 12584 9964 Successfully got access token
+INFO 2026-04-01 15:48:27,725 views 12584 9964 Access token obtained successfully
+INFO 2026-04-01 15:48:27,726 views 12584 9964 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-01 15:48:27,727 views 12584 9964 Sending STK push request to M-Pesa...
+INFO 2026-04-01 15:48:29,135 views 12584 9964 M-Pesa response status: 200
+INFO 2026-04-01 15:48:29,136 views 12584 9964 M-Pesa response: {
+  "MerchantRequestID": "4add-4789-bc0e-9f010e7eacee3033",
+  "CheckoutRequestID": "ws_CO_01042026154827788799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 15:48:29,156 views 12584 9964 SUCCESS: STK push initiated! Checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:29,157 views 12584 9964 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-01 15:48:32,952 views 12584 9964 Checking status for checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:32,956 views 12584 9964 Found transaction in DB: ID=34
+INFO 2026-04-01 15:48:32,957 views 12584 9964   Status: pending
+INFO 2026-04-01 15:48:32,957 views 12584 9964   Receipt: None
+INFO 2026-04-01 15:48:32,957 views 12584 9964   Result Code: None
+INFO 2026-04-01 15:48:32,958 views 12584 9964   Result Desc: None
+INFO 2026-04-01 15:48:35,959 views 12584 9964 Checking status for checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:35,967 views 12584 9964 Found transaction in DB: ID=34
+INFO 2026-04-01 15:48:35,968 views 12584 9964   Status: pending
+INFO 2026-04-01 15:48:35,969 views 12584 9964   Receipt: None
+INFO 2026-04-01 15:48:35,971 views 12584 9964   Result Code: None
+INFO 2026-04-01 15:48:35,972 views 12584 9964   Result Desc: None
+INFO 2026-04-01 15:48:38,944 views 12584 9964 Checking status for checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:38,949 views 12584 9964 Found transaction in DB: ID=34
+INFO 2026-04-01 15:48:38,949 views 12584 9964   Status: pending
+INFO 2026-04-01 15:48:38,950 views 12584 9964   Receipt: None
+INFO 2026-04-01 15:48:38,950 views 12584 9964   Result Code: None
+INFO 2026-04-01 15:48:38,951 views 12584 9964   Result Desc: None
+INFO 2026-04-01 15:48:41,426 views 12584 9964 Checking status for checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:41,439 views 12584 9964 Found transaction in DB: ID=34
+INFO 2026-04-01 15:48:41,440 views 12584 9964   Status: pending
+INFO 2026-04-01 15:48:41,442 views 12584 9964   Receipt: None
+INFO 2026-04-01 15:48:41,443 views 12584 9964   Result Code: None
+INFO 2026-04-01 15:48:41,444 views 12584 9964   Result Desc: None
+INFO 2026-04-01 15:48:44,170 views 12584 9964 Checking status for checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:44,174 views 12584 9964 Found transaction in DB: ID=34
+INFO 2026-04-01 15:48:44,174 views 12584 9964   Status: pending
+INFO 2026-04-01 15:48:44,175 views 12584 9964   Receipt: None
+INFO 2026-04-01 15:48:44,176 views 12584 9964   Result Code: None
+INFO 2026-04-01 15:48:44,176 views 12584 9964   Result Desc: None
+INFO 2026-04-01 15:48:47,170 views 12584 9964 Checking status for checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:47,176 views 12584 9964 Found transaction in DB: ID=34
+INFO 2026-04-01 15:48:47,177 views 12584 9964   Status: pending
+INFO 2026-04-01 15:48:47,178 views 12584 9964   Receipt: None
+INFO 2026-04-01 15:48:47,179 views 12584 9964   Result Code: None
+INFO 2026-04-01 15:48:47,180 views 12584 9964   Result Desc: None
+INFO 2026-04-01 15:48:50,952 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:50,955 views 12584 24224 Found transaction in DB: ID=34
+INFO 2026-04-01 15:48:50,956 views 12584 24224   Status: pending
+INFO 2026-04-01 15:48:50,956 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:48:50,957 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:48:50,957 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:48:53,939 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:53,943 views 12584 24224 Found transaction in DB: ID=34
+INFO 2026-04-01 15:48:53,943 views 12584 24224   Status: pending
+INFO 2026-04-01 15:48:53,944 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:48:53,944 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:48:53,944 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:48:56,175 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:56,180 views 12584 24224 Found transaction in DB: ID=34
+INFO 2026-04-01 15:48:56,181 views 12584 24224   Status: pending
+INFO 2026-04-01 15:48:56,181 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:48:56,182 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:48:56,182 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:48:58,259 views 12584 24224 ==================================================
+INFO 2026-04-01 15:48:58,260 views 12584 24224 INITIATING PAYMENT
+INFO 2026-04-01 15:48:58,263 views 12584 24224 Phone: 254799011954
+INFO 2026-04-01 15:48:58,265 views 12584 24224 Amount: 1
+INFO 2026-04-01 15:48:58,266 views 12584 24224 Reference: GM2648402
+INFO 2026-04-01 15:48:58,266 views 12584 24224 ==================================================
+INFO 2026-04-01 15:48:58,267 views 12584 24224 Formatted phone: 254799011954
+INFO 2026-04-01 15:48:59,179 views 12584 9964 Checking status for checkout ID: ws_CO_01042026154827788799011954
+INFO 2026-04-01 15:48:59,183 views 12584 9964 Found transaction in DB: ID=34
+INFO 2026-04-01 15:48:59,183 views 12584 9964   Status: pending
+INFO 2026-04-01 15:48:59,184 views 12584 9964   Receipt: None
+INFO 2026-04-01 15:48:59,185 views 12584 9964   Result Code: None
+INFO 2026-04-01 15:48:59,185 views 12584 9964   Result Desc: None
+INFO 2026-04-01 15:48:59,400 views 12584 24224 Successfully got access token
+INFO 2026-04-01 15:48:59,404 views 12584 24224 Access token obtained successfully
+INFO 2026-04-01 15:48:59,405 views 12584 24224 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-01 15:48:59,405 views 12584 24224 Sending STK push request to M-Pesa...
+INFO 2026-04-01 15:49:00,881 views 12584 24224 M-Pesa response status: 200
+INFO 2026-04-01 15:49:00,883 views 12584 24224 M-Pesa response: {
+  "MerchantRequestID": "59b5-44b3-a37b-3dad8b1200e32404",
+  "CheckoutRequestID": "ws_CO_01042026154859625799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 15:49:00,904 views 12584 24224 SUCCESS: STK push initiated! Checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:00,908 views 12584 24224 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-01 15:49:03,931 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:03,944 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:03,945 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:03,946 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:03,947 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:03,948 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:06,928 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:06,931 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:06,932 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:06,933 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:06,933 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:06,934 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:09,925 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:09,928 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:09,928 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:09,929 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:09,929 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:09,929 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:12,924 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:12,927 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:12,928 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:12,928 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:12,928 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:12,929 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:15,942 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:15,945 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:15,945 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:15,946 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:15,946 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:15,946 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:18,944 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:18,949 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:18,949 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:18,950 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:18,951 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:18,951 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:21,946 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:21,951 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:21,952 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:21,954 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:21,954 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:21,955 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:24,954 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:24,959 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:24,960 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:24,961 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:24,961 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:24,962 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:27,958 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:27,964 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:27,969 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:27,970 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:27,971 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:27,972 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:30,949 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:30,954 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:30,955 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:30,955 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:30,956 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:30,957 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:33,957 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:33,961 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:33,963 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:33,965 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:33,967 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:33,968 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:36,953 views 12584 24224 Checking status for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:36,959 views 12584 24224 Found transaction in DB: ID=35
+INFO 2026-04-01 15:49:36,960 views 12584 24224   Status: pending
+INFO 2026-04-01 15:49:36,960 views 12584 24224   Receipt: None
+INFO 2026-04-01 15:49:36,961 views 12584 24224   Result Code: None
+INFO 2026-04-01 15:49:36,965 views 12584 24224   Result Desc: None
+INFO 2026-04-01 15:49:36,982 views 12584 24224 Manual simulation requested for checkout ID: ws_CO_01042026154859625799011954
+INFO 2026-04-01 15:49:37,005 views 12584 24224 Manually completed transaction: ws_CO_01042026154859625799011954 with receipt: SIM998949154936
+INFO 2026-04-01 16:03:34,634 views 12584 3252 ==================================================
+INFO 2026-04-01 16:03:34,636 views 12584 3252 INITIATING PAYMENT
+INFO 2026-04-01 16:03:34,637 views 12584 3252 Phone: 254799011954
+INFO 2026-04-01 16:03:34,639 views 12584 3252 Amount: 1
+INFO 2026-04-01 16:03:34,641 views 12584 3252 Reference: GM2607696
+INFO 2026-04-01 16:03:34,642 views 12584 3252 ==================================================
+INFO 2026-04-01 16:03:34,643 views 12584 3252 Formatted phone: 254799011954
+INFO 2026-04-01 16:03:35,991 views 12584 3252 Successfully got access token
+INFO 2026-04-01 16:03:35,995 views 12584 3252 Access token obtained successfully
+INFO 2026-04-01 16:03:35,996 views 12584 3252 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-01 16:03:35,996 views 12584 3252 Sending STK push request to M-Pesa...
+INFO 2026-04-01 16:03:37,401 views 12584 3252 M-Pesa response status: 200
+INFO 2026-04-01 16:03:37,402 views 12584 3252 M-Pesa response: {
+  "MerchantRequestID": "4add-4789-bc0e-9f010e7eacee3731",
+  "CheckoutRequestID": "ws_CO_01042026160336089799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-01 16:03:37,423 views 12584 3252 SUCCESS: STK push initiated! Checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:03:37,423 views 12584 3252 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-01 16:03:40,442 views 12584 3252 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:03:40,454 views 12584 3252 Found transaction in DB: ID=36
+INFO 2026-04-01 16:03:40,456 views 12584 3252   Status: pending
+INFO 2026-04-01 16:03:40,456 views 12584 3252   Receipt: None
+INFO 2026-04-01 16:03:40,457 views 12584 3252   Result Code: None
+INFO 2026-04-01 16:03:40,458 views 12584 3252   Result Desc: None
+INFO 2026-04-01 16:03:43,437 views 12584 3252 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:03:43,440 views 12584 3252 Found transaction in DB: ID=36
+INFO 2026-04-01 16:03:43,441 views 12584 3252   Status: pending
+INFO 2026-04-01 16:03:43,441 views 12584 3252   Receipt: None
+INFO 2026-04-01 16:03:43,442 views 12584 3252   Result Code: None
+INFO 2026-04-01 16:03:43,442 views 12584 3252   Result Desc: None
+INFO 2026-04-01 16:03:46,442 views 12584 3252 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:03:46,448 views 12584 3252 Found transaction in DB: ID=36
+INFO 2026-04-01 16:03:46,449 views 12584 3252   Status: pending
+INFO 2026-04-01 16:03:46,450 views 12584 3252   Receipt: None
+INFO 2026-04-01 16:03:46,450 views 12584 3252   Result Code: None
+INFO 2026-04-01 16:03:46,451 views 12584 3252   Result Desc: None
+INFO 2026-04-01 16:03:49,447 views 12584 3252 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:03:49,454 views 12584 3252 Found transaction in DB: ID=36
+INFO 2026-04-01 16:03:49,455 views 12584 3252   Status: pending
+INFO 2026-04-01 16:03:49,455 views 12584 3252   Receipt: None
+INFO 2026-04-01 16:03:49,456 views 12584 3252   Result Code: None
+INFO 2026-04-01 16:03:49,457 views 12584 3252   Result Desc: None
+INFO 2026-04-01 16:03:52,439 views 12584 3252 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:03:52,442 views 12584 3252 Found transaction in DB: ID=36
+INFO 2026-04-01 16:03:52,443 views 12584 3252   Status: pending
+INFO 2026-04-01 16:03:52,445 views 12584 3252   Receipt: None
+INFO 2026-04-01 16:03:52,448 views 12584 3252   Result Code: None
+INFO 2026-04-01 16:03:52,450 views 12584 3252   Result Desc: None
+INFO 2026-04-01 16:03:55,452 views 12584 3252 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:03:55,455 views 12584 3252 Found transaction in DB: ID=36
+INFO 2026-04-01 16:03:55,456 views 12584 3252   Status: pending
+INFO 2026-04-01 16:03:55,456 views 12584 3252   Receipt: None
+INFO 2026-04-01 16:03:55,457 views 12584 3252   Result Code: None
+INFO 2026-04-01 16:03:55,458 views 12584 3252   Result Desc: None
+INFO 2026-04-01 16:03:58,961 views 12584 3252 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:03:58,966 views 12584 3252 Found transaction in DB: ID=36
+INFO 2026-04-01 16:03:58,967 views 12584 3252   Status: pending
+INFO 2026-04-01 16:03:58,970 views 12584 3252   Receipt: None
+INFO 2026-04-01 16:03:58,971 views 12584 3252   Result Code: None
+INFO 2026-04-01 16:03:58,972 views 12584 3252   Result Desc: None
+INFO 2026-04-01 16:04:01,948 views 12584 3252 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:04:01,953 views 12584 3252 Found transaction in DB: ID=36
+INFO 2026-04-01 16:04:01,953 views 12584 3252   Status: pending
+INFO 2026-04-01 16:04:01,954 views 12584 3252   Receipt: None
+INFO 2026-04-01 16:04:01,954 views 12584 3252   Result Code: None
+INFO 2026-04-01 16:04:01,955 views 12584 3252   Result Desc: None
+INFO 2026-04-01 16:04:04,941 views 12584 10752 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:04:04,945 views 12584 10752 Found transaction in DB: ID=36
+INFO 2026-04-01 16:04:04,946 views 12584 10752   Status: pending
+INFO 2026-04-01 16:04:04,946 views 12584 10752   Receipt: None
+INFO 2026-04-01 16:04:04,946 views 12584 10752   Result Code: None
+INFO 2026-04-01 16:04:04,947 views 12584 10752   Result Desc: None
+INFO 2026-04-01 16:04:07,971 views 12584 10752 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:04:07,977 views 12584 10752 Found transaction in DB: ID=36
+INFO 2026-04-01 16:04:07,978 views 12584 10752   Status: pending
+INFO 2026-04-01 16:04:07,978 views 12584 10752   Receipt: None
+INFO 2026-04-01 16:04:07,979 views 12584 10752   Result Code: None
+INFO 2026-04-01 16:04:07,980 views 12584 10752   Result Desc: None
+INFO 2026-04-01 16:04:10,945 views 12584 10752 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:04:10,949 views 12584 10752 Found transaction in DB: ID=36
+INFO 2026-04-01 16:04:10,949 views 12584 10752   Status: pending
+INFO 2026-04-01 16:04:10,950 views 12584 10752   Receipt: None
+INFO 2026-04-01 16:04:10,950 views 12584 10752   Result Code: None
+INFO 2026-04-01 16:04:10,950 views 12584 10752   Result Desc: None
+INFO 2026-04-01 16:04:13,447 views 12584 10752 Checking status for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:04:13,451 views 12584 10752 Found transaction in DB: ID=36
+INFO 2026-04-01 16:04:13,452 views 12584 10752   Status: pending
+INFO 2026-04-01 16:04:13,453 views 12584 10752   Receipt: None
+INFO 2026-04-01 16:04:13,455 views 12584 10752   Result Code: None
+INFO 2026-04-01 16:04:13,457 views 12584 10752   Result Desc: None
+INFO 2026-04-01 16:04:13,467 views 12584 10752 Manual simulation requested for checkout ID: ws_CO_01042026160336089799011954
+INFO 2026-04-01 16:04:13,497 views 12584 10752 Manually completed transaction: ws_CO_01042026160336089799011954 with receipt: SIM797973160413
+INFO 2026-04-07 10:00:17,170 views 24804 26020 ==================================================
+INFO 2026-04-07 10:00:17,174 views 24804 26020 INITIATING PAYMENT
+INFO 2026-04-07 10:00:17,175 views 24804 26020 Phone: 254799011954
+INFO 2026-04-07 10:00:17,176 views 24804 26020 Amount: 1
+INFO 2026-04-07 10:00:17,177 views 24804 26020 Reference: GM2603943
+INFO 2026-04-07 10:00:17,177 views 24804 26020 ==================================================
+INFO 2026-04-07 10:00:17,178 views 24804 26020 Formatted phone: 254799011954
+INFO 2026-04-07 10:00:18,678 views 24804 26020 Successfully got access token
+INFO 2026-04-07 10:00:18,681 views 24804 26020 Access token obtained successfully
+INFO 2026-04-07 10:00:18,682 views 24804 26020 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 10:00:18,682 views 24804 26020 Sending STK push request to M-Pesa...
+INFO 2026-04-07 10:00:20,598 views 24804 26020 M-Pesa response status: 200
+INFO 2026-04-07 10:00:20,599 views 24804 26020 M-Pesa response: {
+  "MerchantRequestID": "f76c-4979-bad9-13bdf895291010519",
+  "CheckoutRequestID": "ws_CO_07042026100019537799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 10:00:20,637 views 24804 26020 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026100019537799011954
+INFO 2026-04-07 10:00:20,638 views 24804 26020 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-07 10:27:42,937 views 24804 2392 ==================================================
+INFO 2026-04-07 10:27:42,938 views 24804 2392 INITIATING PAYMENT
+INFO 2026-04-07 10:27:42,939 views 24804 2392 Phone: 254799011954
+INFO 2026-04-07 10:27:42,940 views 24804 2392 Amount: 1
+INFO 2026-04-07 10:27:42,940 views 24804 2392 Reference: GM2629408
+INFO 2026-04-07 10:27:42,941 views 24804 2392 ==================================================
+INFO 2026-04-07 10:27:42,942 views 24804 2392 Formatted phone: 254799011954
+INFO 2026-04-07 10:27:44,131 views 24804 2392 Successfully got access token
+INFO 2026-04-07 10:27:44,134 views 24804 2392 Access token obtained successfully
+INFO 2026-04-07 10:27:44,135 views 24804 2392 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 10:27:44,135 views 24804 2392 Sending STK push request to M-Pesa...
+INFO 2026-04-07 10:27:45,464 views 24804 2392 M-Pesa response status: 200
+INFO 2026-04-07 10:27:45,465 views 24804 2392 M-Pesa response: {
+  "MerchantRequestID": "c77b-414d-bbe5-3f551f22e19916736",
+  "CheckoutRequestID": "ws_CO_07042026102744781799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 10:27:45,481 views 24804 2392 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026102744781799011954
+INFO 2026-04-07 10:27:45,483 views 24804 2392 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-07 10:41:26,450 views 10804 25732 ==================================================
+INFO 2026-04-07 10:41:26,451 views 10804 25732 INITIATING PAYMENT
+INFO 2026-04-07 10:41:26,452 views 10804 25732 Phone: 254799011954
+INFO 2026-04-07 10:41:26,452 views 10804 25732 Amount: 1
+INFO 2026-04-07 10:41:26,454 views 10804 25732 Reference: GM2679741
+INFO 2026-04-07 10:41:26,457 views 10804 25732 ==================================================
+INFO 2026-04-07 10:41:26,458 views 10804 25732 Formatted phone: 254799011954
+INFO 2026-04-07 10:41:27,662 views 10804 25732 Successfully got access token
+INFO 2026-04-07 10:41:27,665 views 10804 25732 Access token obtained successfully
+INFO 2026-04-07 10:41:27,666 views 10804 25732 Callback URL:   https://orange-suns-appear.loca.lt
+INFO 2026-04-07 10:41:27,667 views 10804 25732 Sending STK push request to M-Pesa...
+INFO 2026-04-07 10:41:28,790 views 10804 25732 M-Pesa response status: 400
+ERROR 2026-04-07 10:41:28,791 views 10804 25732 HTTP Error: 400 - {
+                    "requestId":"c77b-414d-bbe5-3f551f22e19917182",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+            
+INFO 2026-04-07 10:47:34,845 views 10804 25732 ==================================================
+INFO 2026-04-07 10:47:34,847 views 10804 25732 INITIATING PAYMENT
+INFO 2026-04-07 10:47:34,848 views 10804 25732 Phone: 254799011954
+INFO 2026-04-07 10:47:34,849 views 10804 25732 Amount: 1
+INFO 2026-04-07 10:47:34,850 views 10804 25732 Reference: GM2686148
+INFO 2026-04-07 10:47:34,850 views 10804 25732 ==================================================
+INFO 2026-04-07 10:47:34,850 views 10804 25732 Formatted phone: 254799011954
+INFO 2026-04-07 10:47:36,041 views 10804 25732 Successfully got access token
+INFO 2026-04-07 10:47:36,044 views 10804 25732 Access token obtained successfully
+INFO 2026-04-07 10:47:36,045 views 10804 25732 Callback URL:   https://orange-suns-appear.loca.lt
+INFO 2026-04-07 10:47:36,045 views 10804 25732 Sending STK push request to M-Pesa...
+INFO 2026-04-07 10:47:37,097 views 10804 25732 M-Pesa response status: 400
+ERROR 2026-04-07 10:47:37,098 views 10804 25732 HTTP Error: 400 - {
+                    "requestId":"c77b-414d-bbe5-3f551f22e19917413",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+            
+INFO 2026-04-07 12:47:56,742 views 11924 8028 ==================================================
+INFO 2026-04-07 12:47:56,743 views 11924 8028 INITIATING PAYMENT
+INFO 2026-04-07 12:47:56,743 views 11924 8028 Phone: 254799011954
+INFO 2026-04-07 12:47:56,743 views 11924 8028 Amount: 1
+INFO 2026-04-07 12:47:56,743 views 11924 8028 Reference: GM2666577
+INFO 2026-04-07 12:47:56,744 views 11924 8028 ==================================================
+INFO 2026-04-07 12:47:56,744 views 11924 8028 Formatted phone: 254799011954
+INFO 2026-04-07 12:47:57,833 views 11924 8028 Successfully got access token
+INFO 2026-04-07 12:47:57,836 views 11924 8028 Access token obtained successfully
+INFO 2026-04-07 12:47:57,836 views 11924 8028 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 12:47:57,836 views 11924 8028 Sending STK push request to M-Pesa...
+INFO 2026-04-07 12:47:58,864 views 11924 8028 M-Pesa response status: 200
+INFO 2026-04-07 12:47:58,865 views 11924 8028 M-Pesa response: {
+  "MerchantRequestID": "df0f-4e88-9432-58f70c9d56d010197",
+  "CheckoutRequestID": "ws_CO_07042026124757904799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 12:47:58,884 views 11924 8028 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026124757904799011954
+INFO 2026-04-07 12:47:58,884 views 11924 8028 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-07 13:09:01,069 views 11924 4816 ==================================================
+INFO 2026-04-07 13:09:01,070 views 11924 4816 INITIATING PAYMENT
+INFO 2026-04-07 13:09:01,070 views 11924 4816 Phone: 254799011954
+INFO 2026-04-07 13:09:01,071 views 11924 4816 Amount: 1
+INFO 2026-04-07 13:09:01,071 views 11924 4816 Reference: GM2651650
+INFO 2026-04-07 13:09:01,071 views 11924 4816 ==================================================
+INFO 2026-04-07 13:09:01,072 views 11924 4816 Formatted phone: 254799011954
+INFO 2026-04-07 13:09:01,914 views 11924 4816 Successfully got access token
+INFO 2026-04-07 13:09:01,916 views 11924 4816 Access token obtained successfully
+INFO 2026-04-07 13:09:01,917 views 11924 4816 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 13:09:01,917 views 11924 4816 Sending STK push request to M-Pesa...
+INFO 2026-04-07 13:09:03,151 views 11924 4816 M-Pesa response status: 200
+INFO 2026-04-07 13:09:03,152 views 11924 4816 M-Pesa response: {
+  "MerchantRequestID": "c77b-414d-bbe5-3f551f22e19923477",
+  "CheckoutRequestID": "ws_CO_07042026130902112799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 13:09:03,170 views 11924 4816 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026130902112799011954
+INFO 2026-04-07 13:09:03,171 views 11924 4816 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-07 13:38:31,157 views 10736 24716 ==================================================
+INFO 2026-04-07 13:38:31,157 views 10736 24716 INITIATING PAYMENT
+INFO 2026-04-07 13:38:31,158 views 10736 24716 Phone: 254768135804
+INFO 2026-04-07 13:38:31,158 views 10736 24716 Amount: 1
+INFO 2026-04-07 13:38:31,158 views 10736 24716 Reference: GM2678240
+INFO 2026-04-07 13:38:31,159 views 10736 24716 ==================================================
+INFO 2026-04-07 13:38:31,159 views 10736 24716 Formatted phone: 254768135804
+INFO 2026-04-07 13:38:32,204 views 10736 24716 Successfully got access token
+INFO 2026-04-07 13:38:32,207 views 10736 24716 Access token obtained successfully
+INFO 2026-04-07 13:38:32,208 views 10736 24716 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 13:38:32,208 views 10736 24716 Sending STK push request to M-Pesa...
+INFO 2026-04-07 13:38:33,268 views 10736 24716 M-Pesa response status: 200
+INFO 2026-04-07 13:38:33,269 views 10736 24716 M-Pesa response: {
+  "MerchantRequestID": "c77b-414d-bbe5-3f551f22e19924647",
+  "CheckoutRequestID": "ws_CO_07042026133832275768135804",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 13:38:33,289 views 10736 24716 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026133832275768135804
+INFO 2026-04-07 13:38:33,289 views 10736 24716 Please check phone 254768135804 for STK push prompt
+INFO 2026-04-07 13:39:08,602 views 10736 11276 ==================================================
+INFO 2026-04-07 13:39:08,603 views 10736 11276 INITIATING PAYMENT
+INFO 2026-04-07 13:39:08,603 views 10736 11276 Phone: 254768135804
+INFO 2026-04-07 13:39:08,603 views 10736 11276 Amount: 1
+INFO 2026-04-07 13:39:08,604 views 10736 11276 Reference: GM2661235
+INFO 2026-04-07 13:39:08,604 views 10736 11276 ==================================================
+INFO 2026-04-07 13:39:08,605 views 10736 11276 Formatted phone: 254768135804
+INFO 2026-04-07 13:39:09,391 views 10736 11276 Successfully got access token
+INFO 2026-04-07 13:39:09,393 views 10736 11276 Access token obtained successfully
+INFO 2026-04-07 13:39:09,394 views 10736 11276 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 13:39:09,394 views 10736 11276 Sending STK push request to M-Pesa...
+INFO 2026-04-07 13:39:10,342 views 10736 11276 M-Pesa response status: 200
+INFO 2026-04-07 13:39:10,343 views 10736 11276 M-Pesa response: {
+  "MerchantRequestID": "df0f-4e88-9432-58f70c9d56d010945",
+  "CheckoutRequestID": "ws_CO_07042026133909384768135804",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 13:39:10,360 views 10736 11276 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026133909384768135804
+INFO 2026-04-07 13:39:10,360 views 10736 11276 Please check phone 254768135804 for STK push prompt
+INFO 2026-04-07 13:39:25,352 views 10736 11276 ==================================================
+INFO 2026-04-07 13:39:25,353 views 10736 11276 INITIATING PAYMENT
+INFO 2026-04-07 13:39:25,353 views 10736 11276 Phone: 254799011954
+INFO 2026-04-07 13:39:25,354 views 10736 11276 Amount: 1
+INFO 2026-04-07 13:39:25,354 views 10736 11276 Reference: GM2612391
+INFO 2026-04-07 13:39:25,354 views 10736 11276 ==================================================
+INFO 2026-04-07 13:39:25,354 views 10736 11276 Formatted phone: 254799011954
+INFO 2026-04-07 13:39:26,061 views 10736 11276 Successfully got access token
+INFO 2026-04-07 13:39:26,063 views 10736 11276 Access token obtained successfully
+INFO 2026-04-07 13:39:26,064 views 10736 11276 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 13:39:26,064 views 10736 11276 Sending STK push request to M-Pesa...
+INFO 2026-04-07 13:39:27,010 views 10736 11276 M-Pesa response status: 200
+INFO 2026-04-07 13:39:27,010 views 10736 11276 M-Pesa response: {
+  "MerchantRequestID": "f76c-4979-bad9-13bdf895291013628",
+  "CheckoutRequestID": "ws_CO_07042026133926048799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 13:39:27,026 views 10736 11276 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026133926048799011954
+INFO 2026-04-07 13:39:27,026 views 10736 11276 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-07 13:57:45,158 views 10736 17636 ==================================================
+INFO 2026-04-07 13:57:45,159 views 10736 17636 INITIATING PAYMENT
+INFO 2026-04-07 13:57:45,159 views 10736 17636 Phone: 254799011954
+INFO 2026-04-07 13:57:45,160 views 10736 17636 Amount: 1
+INFO 2026-04-07 13:57:45,160 views 10736 17636 Reference: GM2602530
+INFO 2026-04-07 13:57:45,160 views 10736 17636 ==================================================
+INFO 2026-04-07 13:57:45,161 views 10736 17636 Formatted phone: 254799011954
+INFO 2026-04-07 13:57:46,212 views 10736 17636 Successfully got access token
+INFO 2026-04-07 13:57:46,216 views 10736 17636 Access token obtained successfully
+INFO 2026-04-07 13:57:46,217 views 10736 17636 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 13:57:46,217 views 10736 17636 Sending STK push request to M-Pesa...
+INFO 2026-04-07 13:57:47,353 views 10736 17636 M-Pesa response status: 200
+INFO 2026-04-07 13:57:47,353 views 10736 17636 M-Pesa response: {
+  "MerchantRequestID": "f76c-4979-bad9-13bdf895291013852",
+  "CheckoutRequestID": "ws_CO_07042026135746345799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 13:57:47,370 views 10736 17636 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:57:47,370 views 10736 17636 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-07 13:57:50,386 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:57:50,390 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:57:50,390 views 10736 17636   Status: pending
+INFO 2026-04-07 13:57:50,391 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:57:50,391 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:57:50,391 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:57:53,385 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:57:53,388 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:57:53,388 views 10736 17636   Status: pending
+INFO 2026-04-07 13:57:53,388 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:57:53,389 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:57:53,389 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:57:56,384 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:57:56,387 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:57:56,387 views 10736 17636   Status: pending
+INFO 2026-04-07 13:57:56,388 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:57:56,388 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:57:56,388 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:57:59,383 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:57:59,386 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:57:59,386 views 10736 17636   Status: pending
+INFO 2026-04-07 13:57:59,387 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:57:59,387 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:57:59,387 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:58:02,383 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:58:02,386 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:58:02,386 views 10736 17636   Status: pending
+INFO 2026-04-07 13:58:02,386 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:58:02,386 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:58:02,387 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:58:05,379 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:58:05,381 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:58:05,382 views 10736 17636   Status: pending
+INFO 2026-04-07 13:58:05,382 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:58:05,382 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:58:05,382 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:58:09,386 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:58:09,388 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:58:09,389 views 10736 17636   Status: pending
+INFO 2026-04-07 13:58:09,389 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:58:09,389 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:58:09,389 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:58:12,376 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:58:12,378 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:58:12,378 views 10736 17636   Status: pending
+INFO 2026-04-07 13:58:12,378 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:58:12,379 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:58:12,379 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:58:15,389 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:58:15,391 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:58:15,392 views 10736 17636   Status: pending
+INFO 2026-04-07 13:58:15,392 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:58:15,392 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:58:15,392 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:58:17,380 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:58:17,382 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:58:17,382 views 10736 17636   Status: pending
+INFO 2026-04-07 13:58:17,383 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:58:17,383 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:58:17,383 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:58:20,424 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:58:20,429 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:58:20,430 views 10736 17636   Status: pending
+INFO 2026-04-07 13:58:20,430 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:58:20,430 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:58:20,431 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:58:23,391 views 10736 17636 Checking status for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:58:23,393 views 10736 17636 Found transaction in DB: ID=44
+INFO 2026-04-07 13:58:23,394 views 10736 17636   Status: pending
+INFO 2026-04-07 13:58:23,394 views 10736 17636   Receipt: None
+INFO 2026-04-07 13:58:23,394 views 10736 17636   Result Code: None
+INFO 2026-04-07 13:58:23,394 views 10736 17636   Result Desc: None
+INFO 2026-04-07 13:58:23,399 views 10736 17636 Manual simulation requested for checkout ID: ws_CO_07042026135746345799011954
+INFO 2026-04-07 13:58:23,417 views 10736 17636 Manually completed transaction: ws_CO_07042026135746345799011954 with receipt: SIM704491135823
+INFO 2026-04-07 15:03:28,189 views 10736 11408 ==================================================
+INFO 2026-04-07 15:03:28,190 views 10736 11408 INITIATING PAYMENT
+INFO 2026-04-07 15:03:28,190 views 10736 11408 Phone: 254799011954
+INFO 2026-04-07 15:03:28,191 views 10736 11408 Amount: 1
+INFO 2026-04-07 15:03:28,191 views 10736 11408 Reference: GM2625140
+INFO 2026-04-07 15:03:28,191 views 10736 11408 ==================================================
+INFO 2026-04-07 15:03:28,191 views 10736 11408 Formatted phone: 254799011954
+INFO 2026-04-07 15:03:29,019 views 10736 11408 Successfully got access token
+INFO 2026-04-07 15:03:29,022 views 10736 11408 Access token obtained successfully
+INFO 2026-04-07 15:03:29,022 views 10736 11408 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 15:03:29,023 views 10736 11408 Sending STK push request to M-Pesa...
+INFO 2026-04-07 15:03:29,971 views 10736 11408 M-Pesa response status: 200
+INFO 2026-04-07 15:03:29,972 views 10736 11408 M-Pesa response: {
+  "MerchantRequestID": "c77b-414d-bbe5-3f551f22e19927388",
+  "CheckoutRequestID": "ws_CO_07042026150328795799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 15:03:29,985 views 10736 11408 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:03:29,986 views 10736 11408 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-07 15:03:33,004 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:03:33,009 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:03:33,009 views 10736 11408   Status: pending
+INFO 2026-04-07 15:03:33,009 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:03:33,009 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:03:33,010 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:03:36,002 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:03:36,004 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:03:36,005 views 10736 11408   Status: pending
+INFO 2026-04-07 15:03:36,005 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:03:36,006 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:03:36,006 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:03:39,002 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:03:39,005 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:03:39,005 views 10736 11408   Status: pending
+INFO 2026-04-07 15:03:39,006 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:03:39,006 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:03:39,006 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:03:42,000 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:03:42,002 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:03:42,003 views 10736 11408   Status: pending
+INFO 2026-04-07 15:03:42,004 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:03:42,004 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:03:42,005 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:03:45,001 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:03:45,004 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:03:45,004 views 10736 11408   Status: pending
+INFO 2026-04-07 15:03:45,005 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:03:45,005 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:03:45,005 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:03:48,000 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:03:48,002 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:03:48,002 views 10736 11408   Status: pending
+INFO 2026-04-07 15:03:48,003 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:03:48,003 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:03:48,003 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:03:50,999 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:03:51,002 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:03:51,002 views 10736 11408   Status: pending
+INFO 2026-04-07 15:03:51,002 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:03:51,003 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:03:51,003 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:03:54,372 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:03:54,374 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:03:54,374 views 10736 11408   Status: pending
+INFO 2026-04-07 15:03:54,374 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:03:54,375 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:03:54,375 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:03:57,378 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:03:57,380 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:03:57,380 views 10736 11408   Status: pending
+INFO 2026-04-07 15:03:57,380 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:03:57,381 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:03:57,381 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:04:00,374 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:04:00,377 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:04:00,377 views 10736 11408   Status: pending
+INFO 2026-04-07 15:04:00,377 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:04:00,378 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:04:00,378 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:04:03,373 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:04:03,375 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:04:03,375 views 10736 11408   Status: pending
+INFO 2026-04-07 15:04:03,375 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:04:03,376 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:04:03,376 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:04:06,372 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:04:06,374 views 10736 11408 Found transaction in DB: ID=45
+INFO 2026-04-07 15:04:06,374 views 10736 11408   Status: pending
+INFO 2026-04-07 15:04:06,374 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:04:06,374 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:04:06,375 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:04:06,379 views 10736 11408 Manual simulation requested for checkout ID: ws_CO_07042026150328795799011954
+INFO 2026-04-07 15:04:06,394 views 10736 11408 Manually completed transaction: ws_CO_07042026150328795799011954 with receipt: SIM505727150406
+INFO 2026-04-07 15:09:25,103 views 10736 11408 ==================================================
+INFO 2026-04-07 15:09:25,104 views 10736 11408 INITIATING PAYMENT
+INFO 2026-04-07 15:09:25,105 views 10736 11408 Phone: 254799011954
+INFO 2026-04-07 15:09:25,105 views 10736 11408 Amount: 1
+INFO 2026-04-07 15:09:25,106 views 10736 11408 Reference: GM2679667
+INFO 2026-04-07 15:09:25,107 views 10736 11408 ==================================================
+INFO 2026-04-07 15:09:25,107 views 10736 11408 Formatted phone: 254799011954
+INFO 2026-04-07 15:09:26,097 views 10736 11408 Successfully got access token
+INFO 2026-04-07 15:09:26,100 views 10736 11408 Access token obtained successfully
+INFO 2026-04-07 15:09:26,100 views 10736 11408 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 15:09:26,101 views 10736 11408 Sending STK push request to M-Pesa...
+INFO 2026-04-07 15:09:27,134 views 10736 11408 M-Pesa response status: 200
+INFO 2026-04-07 15:09:27,134 views 10736 11408 M-Pesa response: {
+  "MerchantRequestID": "f76c-4979-bad9-13bdf895291014769",
+  "CheckoutRequestID": "ws_CO_07042026150925865799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 15:09:27,153 views 10736 11408 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:27,153 views 10736 11408 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-07 15:09:30,166 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:30,170 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:09:30,171 views 10736 11408   Status: pending
+INFO 2026-04-07 15:09:30,171 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:09:30,172 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:09:30,172 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:09:33,165 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:33,167 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:09:33,167 views 10736 11408   Status: pending
+INFO 2026-04-07 15:09:33,168 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:09:33,168 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:09:33,169 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:09:36,164 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:36,166 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:09:36,166 views 10736 11408   Status: pending
+INFO 2026-04-07 15:09:36,167 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:09:36,167 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:09:36,167 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:09:39,163 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:39,165 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:09:39,166 views 10736 11408   Status: pending
+INFO 2026-04-07 15:09:39,166 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:09:39,166 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:09:39,167 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:09:42,382 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:42,384 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:09:42,385 views 10736 11408   Status: pending
+INFO 2026-04-07 15:09:42,385 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:09:42,385 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:09:42,385 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:09:45,386 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:45,388 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:09:45,388 views 10736 11408   Status: pending
+INFO 2026-04-07 15:09:45,388 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:09:45,389 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:09:45,389 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:09:48,379 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:48,381 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:09:48,381 views 10736 11408   Status: pending
+INFO 2026-04-07 15:09:48,381 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:09:48,382 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:09:48,382 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:09:51,374 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:51,375 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:09:51,376 views 10736 11408   Status: pending
+INFO 2026-04-07 15:09:51,376 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:09:51,376 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:09:51,376 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:09:54,386 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:54,388 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:09:54,388 views 10736 11408   Status: pending
+INFO 2026-04-07 15:09:54,388 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:09:54,388 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:09:54,389 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:09:57,374 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:09:57,376 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:09:57,376 views 10736 11408   Status: pending
+INFO 2026-04-07 15:09:57,377 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:09:57,377 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:09:57,377 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:10:00,373 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:10:00,375 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:10:00,375 views 10736 11408   Status: pending
+INFO 2026-04-07 15:10:00,375 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:10:00,376 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:10:00,376 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:10:03,371 views 10736 11408 Checking status for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:10:03,373 views 10736 11408 Found transaction in DB: ID=46
+INFO 2026-04-07 15:10:03,374 views 10736 11408   Status: pending
+INFO 2026-04-07 15:10:03,374 views 10736 11408   Receipt: None
+INFO 2026-04-07 15:10:03,374 views 10736 11408   Result Code: None
+INFO 2026-04-07 15:10:03,374 views 10736 11408   Result Desc: None
+INFO 2026-04-07 15:10:03,379 views 10736 11408 Manual simulation requested for checkout ID: ws_CO_07042026150925865799011954
+INFO 2026-04-07 15:10:03,393 views 10736 11408 Manually completed transaction: ws_CO_07042026150925865799011954 with receipt: SIM595919151003
+INFO 2026-04-07 21:44:24,267 views 10736 15528 ==================================================
+INFO 2026-04-07 21:44:24,267 views 10736 15528 INITIATING PAYMENT
+INFO 2026-04-07 21:44:24,268 views 10736 15528 Phone: 254115393579
+INFO 2026-04-07 21:44:24,268 views 10736 15528 Amount: 1
+INFO 2026-04-07 21:44:24,268 views 10736 15528 Reference: GM2654859
+INFO 2026-04-07 21:44:24,268 views 10736 15528 ==================================================
+INFO 2026-04-07 21:44:24,268 views 10736 15528 Formatted phone: 254115393579
+INFO 2026-04-07 21:44:25,582 views 10736 15528 Successfully got access token
+INFO 2026-04-07 21:44:25,585 views 10736 15528 Access token obtained successfully
+INFO 2026-04-07 21:44:25,585 views 10736 15528 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-07 21:44:25,586 views 10736 15528 Sending STK push request to M-Pesa...
+INFO 2026-04-07 21:44:26,523 views 10736 15528 M-Pesa response status: 200
+INFO 2026-04-07 21:44:26,523 views 10736 15528 M-Pesa response: {
+  "MerchantRequestID": "2abe-4b1b-b493-abfdb7c848c64270",
+  "CheckoutRequestID": "ws_CO_07042026214425998115393579",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-07 21:44:26,533 views 10736 15528 SUCCESS: STK push initiated! Checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:26,534 views 10736 15528 Please check phone 254115393579 for STK push prompt
+INFO 2026-04-07 21:44:29,555 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:29,560 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:29,560 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:29,560 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:29,561 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:29,561 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:44:32,556 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:32,558 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:32,558 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:32,558 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:32,558 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:32,559 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:44:35,560 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:35,562 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:35,562 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:35,562 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:35,563 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:35,563 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:44:38,553 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:38,556 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:38,557 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:38,557 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:38,557 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:38,558 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:44:41,553 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:41,556 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:41,556 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:41,557 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:41,557 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:41,558 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:44:44,546 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:44,549 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:44,550 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:44,551 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:44,551 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:44,551 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:44:47,553 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:47,555 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:47,555 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:47,555 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:47,556 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:47,556 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:44:50,564 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:50,567 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:50,567 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:50,567 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:50,567 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:50,568 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:44:53,550 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:53,552 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:53,553 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:53,553 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:53,553 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:53,554 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:44:56,563 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:56,565 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:56,565 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:56,566 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:56,566 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:56,566 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:44:59,554 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:44:59,556 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:44:59,557 views 10736 15528   Status: pending
+INFO 2026-04-07 21:44:59,557 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:44:59,557 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:44:59,558 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:45:02,564 views 10736 15528 Checking status for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:45:02,566 views 10736 15528 Found transaction in DB: ID=47
+INFO 2026-04-07 21:45:02,566 views 10736 15528   Status: pending
+INFO 2026-04-07 21:45:02,566 views 10736 15528   Receipt: None
+INFO 2026-04-07 21:45:02,567 views 10736 15528   Result Code: None
+INFO 2026-04-07 21:45:02,567 views 10736 15528   Result Desc: None
+INFO 2026-04-07 21:45:02,572 views 10736 15528 Manual simulation requested for checkout ID: ws_CO_07042026214425998115393579
+INFO 2026-04-07 21:45:02,585 views 10736 15528 Manually completed transaction: ws_CO_07042026214425998115393579 with receipt: SIM517868214502
+INFO 2026-04-08 17:16:41,811 views 10736 16512 ==================================================
+INFO 2026-04-08 17:16:41,812 views 10736 16512 INITIATING PAYMENT
+INFO 2026-04-08 17:16:41,813 views 10736 16512 Phone: 254799011954
+INFO 2026-04-08 17:16:41,813 views 10736 16512 Amount: 1
+INFO 2026-04-08 17:16:41,814 views 10736 16512 Reference: GM2600236
+INFO 2026-04-08 17:16:41,814 views 10736 16512 ==================================================
+INFO 2026-04-08 17:16:41,814 views 10736 16512 Formatted phone: 254799011954
+INFO 2026-04-08 17:16:42,922 views 10736 16512 Successfully got access token
+INFO 2026-04-08 17:16:42,924 views 10736 16512 Access token obtained successfully
+INFO 2026-04-08 17:16:42,925 views 10736 16512 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-08 17:16:42,925 views 10736 16512 Sending STK push request to M-Pesa...
+INFO 2026-04-08 17:16:44,361 views 10736 16512 M-Pesa response status: 200
+INFO 2026-04-08 17:16:44,362 views 10736 16512 M-Pesa response: {
+  "MerchantRequestID": "7442-44cb-9b0a-addc1c03bce83903",
+  "CheckoutRequestID": "ws_CO_08042026171643151799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-08 17:16:44,377 views 10736 16512 SUCCESS: STK push initiated! Checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:16:44,378 views 10736 16512 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-08 17:16:47,406 views 10736 16512 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:16:47,415 views 10736 16512 Found transaction in DB: ID=48
+INFO 2026-04-08 17:16:47,416 views 10736 16512   Status: pending
+INFO 2026-04-08 17:16:47,417 views 10736 16512   Receipt: None
+INFO 2026-04-08 17:16:47,418 views 10736 16512   Result Code: None
+INFO 2026-04-08 17:16:47,419 views 10736 16512   Result Desc: None
+INFO 2026-04-08 17:16:50,402 views 10736 16512 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:16:50,408 views 10736 16512 Found transaction in DB: ID=48
+INFO 2026-04-08 17:16:50,409 views 10736 16512   Status: pending
+INFO 2026-04-08 17:16:50,409 views 10736 16512   Receipt: None
+INFO 2026-04-08 17:16:50,410 views 10736 16512   Result Code: None
+INFO 2026-04-08 17:16:50,412 views 10736 16512   Result Desc: None
+INFO 2026-04-08 17:16:53,397 views 10736 16512 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:16:53,402 views 10736 16512 Found transaction in DB: ID=48
+INFO 2026-04-08 17:16:53,403 views 10736 16512   Status: pending
+INFO 2026-04-08 17:16:53,404 views 10736 16512   Receipt: None
+INFO 2026-04-08 17:16:53,405 views 10736 16512   Result Code: None
+INFO 2026-04-08 17:16:53,406 views 10736 16512   Result Desc: None
+INFO 2026-04-08 17:16:56,396 views 10736 16512 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:16:56,401 views 10736 16512 Found transaction in DB: ID=48
+INFO 2026-04-08 17:16:56,401 views 10736 16512   Status: pending
+INFO 2026-04-08 17:16:56,401 views 10736 16512   Receipt: None
+INFO 2026-04-08 17:16:56,402 views 10736 16512   Result Code: None
+INFO 2026-04-08 17:16:56,402 views 10736 16512   Result Desc: None
+INFO 2026-04-08 17:16:59,392 views 10736 16512 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:16:59,398 views 10736 16512 Found transaction in DB: ID=48
+INFO 2026-04-08 17:16:59,399 views 10736 16512   Status: pending
+INFO 2026-04-08 17:16:59,399 views 10736 16512   Receipt: None
+INFO 2026-04-08 17:16:59,400 views 10736 16512   Result Code: None
+INFO 2026-04-08 17:16:59,400 views 10736 16512   Result Desc: None
+INFO 2026-04-08 17:17:02,717 views 10736 16512 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:17:02,724 views 10736 16512 Found transaction in DB: ID=48
+INFO 2026-04-08 17:17:02,725 views 10736 16512   Status: pending
+INFO 2026-04-08 17:17:02,726 views 10736 16512   Receipt: None
+INFO 2026-04-08 17:17:02,727 views 10736 16512   Result Code: None
+INFO 2026-04-08 17:17:02,729 views 10736 16512   Result Desc: None
+INFO 2026-04-08 17:17:05,717 views 10736 16512 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:17:05,722 views 10736 16512 Found transaction in DB: ID=48
+INFO 2026-04-08 17:17:05,723 views 10736 16512   Status: pending
+INFO 2026-04-08 17:17:05,724 views 10736 16512   Receipt: None
+INFO 2026-04-08 17:17:05,725 views 10736 16512   Result Code: None
+INFO 2026-04-08 17:17:05,728 views 10736 16512   Result Desc: None
+INFO 2026-04-08 17:17:08,723 views 10736 16512 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:17:08,728 views 10736 16512 Found transaction in DB: ID=48
+INFO 2026-04-08 17:17:08,729 views 10736 16512   Status: pending
+INFO 2026-04-08 17:17:08,729 views 10736 16512   Receipt: None
+INFO 2026-04-08 17:17:08,730 views 10736 16512   Result Code: None
+INFO 2026-04-08 17:17:08,731 views 10736 16512   Result Desc: None
+INFO 2026-04-08 17:17:11,722 views 10736 16512 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:17:11,736 views 10736 16512 Found transaction in DB: ID=48
+INFO 2026-04-08 17:17:11,736 views 10736 16512   Status: pending
+INFO 2026-04-08 17:17:11,738 views 10736 16512   Receipt: None
+INFO 2026-04-08 17:17:11,740 views 10736 16512   Result Code: None
+INFO 2026-04-08 17:17:11,743 views 10736 16512   Result Desc: None
+INFO 2026-04-08 17:17:14,730 views 10736 11128 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:17:14,737 views 10736 11128 Found transaction in DB: ID=48
+INFO 2026-04-08 17:17:14,738 views 10736 11128   Status: pending
+INFO 2026-04-08 17:17:14,738 views 10736 11128   Receipt: None
+INFO 2026-04-08 17:17:14,739 views 10736 11128   Result Code: None
+INFO 2026-04-08 17:17:14,740 views 10736 11128   Result Desc: None
+INFO 2026-04-08 17:17:17,719 views 10736 11128 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:17:17,727 views 10736 11128 Found transaction in DB: ID=48
+INFO 2026-04-08 17:17:17,728 views 10736 11128   Status: pending
+INFO 2026-04-08 17:17:17,729 views 10736 11128   Receipt: None
+INFO 2026-04-08 17:17:17,730 views 10736 11128   Result Code: None
+INFO 2026-04-08 17:17:17,731 views 10736 11128   Result Desc: None
+INFO 2026-04-08 17:17:20,714 views 10736 11128 Checking status for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:17:20,720 views 10736 11128 Found transaction in DB: ID=48
+INFO 2026-04-08 17:17:20,721 views 10736 11128   Status: pending
+INFO 2026-04-08 17:17:20,722 views 10736 11128   Receipt: None
+INFO 2026-04-08 17:17:20,723 views 10736 11128   Result Code: None
+INFO 2026-04-08 17:17:20,723 views 10736 11128   Result Desc: None
+INFO 2026-04-08 17:17:20,738 views 10736 11128 Manual simulation requested for checkout ID: ws_CO_08042026171643151799011954
+INFO 2026-04-08 17:17:20,764 views 10736 11128 Manually completed transaction: ws_CO_08042026171643151799011954 with receipt: SIM600474171720
+INFO 2026-04-14 12:41:12,767 views 24300 12364 ==================================================
+INFO 2026-04-14 12:41:12,769 views 24300 12364 INITIATING PAYMENT
+INFO 2026-04-14 12:41:12,770 views 24300 12364 Phone: 254799011954
+INFO 2026-04-14 12:41:12,771 views 24300 12364 Amount: 1
+INFO 2026-04-14 12:41:12,772 views 24300 12364 Reference: GM2667657
+INFO 2026-04-14 12:41:12,773 views 24300 12364 ==================================================
+INFO 2026-04-14 12:41:12,773 views 24300 12364 Formatted phone: 254799011954
+INFO 2026-04-14 12:41:14,171 views 24300 12364 Successfully got access token
+INFO 2026-04-14 12:41:14,174 views 24300 12364 Access token obtained successfully
+INFO 2026-04-14 12:41:14,175 views 24300 12364 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-14 12:41:14,175 views 24300 12364 Sending STK push request to M-Pesa...
+INFO 2026-04-14 12:41:15,429 views 24300 12364 M-Pesa response status: 200
+INFO 2026-04-14 12:41:15,430 views 24300 12364 M-Pesa response: {
+  "MerchantRequestID": "1a4f-4863-8aa2-946cae460f742958",
+  "CheckoutRequestID": "ws_CO_14042026124112836799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-14 12:41:15,465 views 24300 12364 SUCCESS: STK push initiated! Checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:15,467 views 24300 12364 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-14 12:41:18,485 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:18,495 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:18,496 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:18,497 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:18,498 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:18,499 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:21,488 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:21,494 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:21,495 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:21,495 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:21,496 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:21,497 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:24,487 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:24,493 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:24,493 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:24,494 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:24,495 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:24,497 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:27,489 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:27,495 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:27,496 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:27,503 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:27,504 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:27,505 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:30,567 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:30,574 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:30,575 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:30,577 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:30,579 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:30,581 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:33,573 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:33,578 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:33,579 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:33,579 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:33,580 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:33,581 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:36,576 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:36,579 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:36,580 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:36,580 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:36,581 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:36,581 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:39,578 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:39,583 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:39,584 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:39,585 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:39,585 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:39,586 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:42,577 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:42,581 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:42,581 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:42,582 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:42,582 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:42,582 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:45,570 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:45,576 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:45,577 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:45,577 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:45,578 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:45,579 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:48,580 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:48,585 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:48,586 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:48,586 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:48,587 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:48,588 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:51,576 views 24300 12364 Checking status for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:51,579 views 24300 12364 Found transaction in DB: ID=49
+INFO 2026-04-14 12:41:51,580 views 24300 12364   Status: pending
+INFO 2026-04-14 12:41:51,580 views 24300 12364   Receipt: None
+INFO 2026-04-14 12:41:51,581 views 24300 12364   Result Code: None
+INFO 2026-04-14 12:41:51,581 views 24300 12364   Result Desc: None
+INFO 2026-04-14 12:41:51,591 views 24300 12364 Manual simulation requested for checkout ID: ws_CO_14042026124112836799011954
+INFO 2026-04-14 12:41:51,611 views 24300 12364 Manually completed transaction: ws_CO_14042026124112836799011954 with receipt: SIM123371124151
+INFO 2026-04-14 13:23:55,490 views 24300 21876 ==================================================
+INFO 2026-04-14 13:23:55,492 views 24300 21876 INITIATING PAYMENT
+INFO 2026-04-14 13:23:55,493 views 24300 21876 Phone: 254799011954
+INFO 2026-04-14 13:23:55,494 views 24300 21876 Amount: 1
+INFO 2026-04-14 13:23:55,494 views 24300 21876 Reference: GM2604601
+INFO 2026-04-14 13:23:55,495 views 24300 21876 ==================================================
+INFO 2026-04-14 13:23:55,496 views 24300 21876 Formatted phone: 254799011954
+INFO 2026-04-14 13:23:56,713 views 24300 21876 Successfully got access token
+INFO 2026-04-14 13:23:56,716 views 24300 21876 Access token obtained successfully
+INFO 2026-04-14 13:23:56,716 views 24300 21876 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-14 13:23:56,717 views 24300 21876 Sending STK push request to M-Pesa...
+INFO 2026-04-14 13:23:58,043 views 24300 21876 M-Pesa response status: 200
+INFO 2026-04-14 13:23:58,044 views 24300 21876 M-Pesa response: {
+  "MerchantRequestID": "dfb0-461a-a595-243c27959df72161",
+  "CheckoutRequestID": "ws_CO_14042026132355303799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-14 13:23:58,063 views 24300 21876 SUCCESS: STK push initiated! Checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:23:58,064 views 24300 21876 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-14 13:24:01,090 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:01,098 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:01,098 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:01,099 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:01,100 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:01,100 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:04,088 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:04,094 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:04,095 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:04,095 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:04,096 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:04,096 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:07,090 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:07,094 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:07,095 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:07,095 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:07,096 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:07,097 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:10,085 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:10,089 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:10,090 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:10,090 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:10,091 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:10,091 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:13,085 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:13,089 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:13,090 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:13,090 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:13,091 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:13,091 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:16,576 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:16,582 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:16,583 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:16,583 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:16,584 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:16,584 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:19,571 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:19,577 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:19,578 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:19,579 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:19,579 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:19,580 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:22,573 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:22,576 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:22,577 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:22,577 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:22,578 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:22,578 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:25,567 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:25,573 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:25,574 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:25,574 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:25,575 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:25,576 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:28,573 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:28,577 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:28,579 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:28,582 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:28,583 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:28,583 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:31,567 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:31,572 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:31,573 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:31,573 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:31,574 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:31,575 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:34,094 views 24300 21876 Checking status for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:34,101 views 24300 21876 Found transaction in DB: ID=50
+INFO 2026-04-14 13:24:34,102 views 24300 21876   Status: pending
+INFO 2026-04-14 13:24:34,103 views 24300 21876   Receipt: None
+INFO 2026-04-14 13:24:34,104 views 24300 21876   Result Code: None
+INFO 2026-04-14 13:24:34,105 views 24300 21876   Result Desc: None
+INFO 2026-04-14 13:24:34,121 views 24300 21876 Manual simulation requested for checkout ID: ws_CO_14042026132355303799011954
+INFO 2026-04-14 13:24:34,151 views 24300 21876 Manually completed transaction: ws_CO_14042026132355303799011954 with receipt: SIM689728132434
+INFO 2026-04-14 13:34:27,317 views 24300 27140 ==================================================
+INFO 2026-04-14 13:34:27,318 views 24300 27140 INITIATING PAYMENT
+INFO 2026-04-14 13:34:27,319 views 24300 27140 Phone: 254799011954
+INFO 2026-04-14 13:34:27,320 views 24300 27140 Amount: 1
+INFO 2026-04-14 13:34:27,321 views 24300 27140 Reference: GM2624084
+INFO 2026-04-14 13:34:27,323 views 24300 27140 ==================================================
+INFO 2026-04-14 13:34:27,324 views 24300 27140 Formatted phone: 254799011954
+INFO 2026-04-14 13:34:28,572 views 24300 27140 Successfully got access token
+INFO 2026-04-14 13:34:28,577 views 24300 27140 Access token obtained successfully
+INFO 2026-04-14 13:34:28,579 views 24300 27140 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-14 13:34:28,583 views 24300 27140 Sending STK push request to M-Pesa...
+INFO 2026-04-14 13:34:29,982 views 24300 27140 M-Pesa response status: 200
+INFO 2026-04-14 13:34:29,983 views 24300 27140 M-Pesa response: {
+  "MerchantRequestID": "ed4f-485c-b28f-e8afc887210a1367",
+  "CheckoutRequestID": "ws_CO_14042026133427174799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-14 13:34:30,008 views 24300 27140 SUCCESS: STK push initiated! Checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:34:30,009 views 24300 27140 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-14 13:34:33,050 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:34:33,070 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:34:33,071 views 24300 27140   Status: pending
+INFO 2026-04-14 13:34:33,072 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:34:33,074 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:34:33,083 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:34:36,028 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:34:36,032 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:34:36,033 views 24300 27140   Status: pending
+INFO 2026-04-14 13:34:36,034 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:34:36,034 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:34:36,035 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:34:39,033 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:34:39,037 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:34:39,038 views 24300 27140   Status: pending
+INFO 2026-04-14 13:34:39,038 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:34:39,041 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:34:39,043 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:34:42,576 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:34:42,579 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:34:42,580 views 24300 27140   Status: pending
+INFO 2026-04-14 13:34:42,580 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:34:42,581 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:34:42,581 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:34:45,567 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:34:45,573 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:34:45,574 views 24300 27140   Status: pending
+INFO 2026-04-14 13:34:45,574 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:34:45,576 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:34:45,577 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:34:48,571 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:34:48,576 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:34:48,577 views 24300 27140   Status: pending
+INFO 2026-04-14 13:34:48,578 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:34:48,579 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:34:48,580 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:34:51,568 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:34:51,574 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:34:51,575 views 24300 27140   Status: pending
+INFO 2026-04-14 13:34:51,575 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:34:51,576 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:34:51,577 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:34:54,576 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:34:54,580 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:34:54,581 views 24300 27140   Status: pending
+INFO 2026-04-14 13:34:54,582 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:34:54,590 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:34:54,592 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:34:57,573 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:34:57,578 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:34:57,579 views 24300 27140   Status: pending
+INFO 2026-04-14 13:34:57,580 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:34:57,580 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:34:57,581 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:35:00,570 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:35:00,574 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:35:00,575 views 24300 27140   Status: pending
+INFO 2026-04-14 13:35:00,576 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:35:00,576 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:35:00,577 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:35:03,574 views 24300 27140 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:35:03,579 views 24300 27140 Found transaction in DB: ID=51
+INFO 2026-04-14 13:35:03,580 views 24300 27140   Status: pending
+INFO 2026-04-14 13:35:03,580 views 24300 27140   Receipt: None
+INFO 2026-04-14 13:35:03,581 views 24300 27140   Result Code: None
+INFO 2026-04-14 13:35:03,582 views 24300 27140   Result Desc: None
+INFO 2026-04-14 13:35:06,885 views 24300 4820 Checking status for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:35:06,889 views 24300 4820 Found transaction in DB: ID=51
+INFO 2026-04-14 13:35:06,889 views 24300 4820   Status: pending
+INFO 2026-04-14 13:35:06,889 views 24300 4820   Receipt: None
+INFO 2026-04-14 13:35:06,891 views 24300 4820   Result Code: None
+INFO 2026-04-14 13:35:06,892 views 24300 4820   Result Desc: None
+INFO 2026-04-14 13:35:06,907 views 24300 4820 Manual simulation requested for checkout ID: ws_CO_14042026133427174799011954
+INFO 2026-04-14 13:35:06,929 views 24300 4820 Manually completed transaction: ws_CO_14042026133427174799011954 with receipt: SIM175134133506
+INFO 2026-04-14 14:12:52,515 views 24300 26948 ==================================================
+INFO 2026-04-14 14:12:52,517 views 24300 26948 INITIATING PAYMENT
+INFO 2026-04-14 14:12:52,518 views 24300 26948 Phone: 254799011954
+INFO 2026-04-14 14:12:52,519 views 24300 26948 Amount: 1
+INFO 2026-04-14 14:12:52,520 views 24300 26948 Reference: GM2678840
+INFO 2026-04-14 14:12:52,521 views 24300 26948 ==================================================
+INFO 2026-04-14 14:12:52,522 views 24300 26948 Formatted phone: 254799011954
+INFO 2026-04-14 14:12:53,761 views 24300 26948 Successfully got access token
+INFO 2026-04-14 14:12:53,766 views 24300 26948 Access token obtained successfully
+INFO 2026-04-14 14:12:53,767 views 24300 26948 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-14 14:12:53,768 views 24300 26948 Sending STK push request to M-Pesa...
+INFO 2026-04-14 14:12:55,164 views 24300 26948 M-Pesa response status: 200
+INFO 2026-04-14 14:12:55,165 views 24300 26948 M-Pesa response: {
+  "MerchantRequestID": "5b08-45ce-800b-5824041ffb5c3637",
+  "CheckoutRequestID": "ws_CO_14042026141252427799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-14 14:12:55,186 views 24300 26948 SUCCESS: STK push initiated! Checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:12:55,187 views 24300 26948 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-14 14:12:58,213 views 24300 26948 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:12:58,220 views 24300 26948 Found transaction in DB: ID=52
+INFO 2026-04-14 14:12:58,220 views 24300 26948   Status: pending
+INFO 2026-04-14 14:12:58,221 views 24300 26948   Receipt: None
+INFO 2026-04-14 14:12:58,223 views 24300 26948   Result Code: None
+INFO 2026-04-14 14:12:58,225 views 24300 26948   Result Desc: None
+INFO 2026-04-14 14:13:01,203 views 24300 26948 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:01,208 views 24300 26948 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:01,209 views 24300 26948   Status: pending
+INFO 2026-04-14 14:13:01,210 views 24300 26948   Receipt: None
+INFO 2026-04-14 14:13:01,210 views 24300 26948   Result Code: None
+INFO 2026-04-14 14:13:01,211 views 24300 26948   Result Desc: None
+INFO 2026-04-14 14:13:04,206 views 24300 26948 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:04,213 views 24300 26948 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:04,214 views 24300 26948   Status: pending
+INFO 2026-04-14 14:13:04,214 views 24300 26948   Receipt: None
+INFO 2026-04-14 14:13:04,215 views 24300 26948   Result Code: None
+INFO 2026-04-14 14:13:04,216 views 24300 26948   Result Desc: None
+INFO 2026-04-14 14:13:07,576 views 24300 18440 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:07,581 views 24300 18440 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:07,582 views 24300 18440   Status: pending
+INFO 2026-04-14 14:13:07,582 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:13:07,583 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:13:07,584 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:13:10,572 views 24300 18440 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:10,577 views 24300 18440 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:10,577 views 24300 18440   Status: pending
+INFO 2026-04-14 14:13:10,578 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:13:10,578 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:13:10,579 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:13:13,577 views 24300 18440 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:13,582 views 24300 18440 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:13,582 views 24300 18440   Status: pending
+INFO 2026-04-14 14:13:13,583 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:13:13,584 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:13:13,586 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:13:16,568 views 24300 18440 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:16,572 views 24300 18440 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:16,573 views 24300 18440   Status: pending
+INFO 2026-04-14 14:13:16,574 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:13:16,574 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:13:16,575 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:13:19,571 views 24300 18440 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:19,576 views 24300 18440 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:19,577 views 24300 18440   Status: pending
+INFO 2026-04-14 14:13:19,577 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:13:19,578 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:13:19,579 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:13:22,577 views 24300 18440 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:22,581 views 24300 18440 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:22,581 views 24300 18440   Status: pending
+INFO 2026-04-14 14:13:22,582 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:13:22,582 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:13:22,582 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:13:25,573 views 24300 18440 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:25,576 views 24300 18440 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:25,577 views 24300 18440   Status: pending
+INFO 2026-04-14 14:13:25,577 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:13:25,577 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:13:25,578 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:13:28,572 views 24300 18440 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:28,575 views 24300 18440 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:28,576 views 24300 18440   Status: pending
+INFO 2026-04-14 14:13:28,576 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:13:28,577 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:13:28,577 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:13:31,582 views 24300 18440 Checking status for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:31,587 views 24300 18440 Found transaction in DB: ID=52
+INFO 2026-04-14 14:13:31,588 views 24300 18440   Status: pending
+INFO 2026-04-14 14:13:31,588 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:13:31,589 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:13:31,589 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:13:31,625 views 24300 18440 Manual simulation requested for checkout ID: ws_CO_14042026141252427799011954
+INFO 2026-04-14 14:13:31,650 views 24300 18440 Manually completed transaction: ws_CO_14042026141252427799011954 with receipt: SIM726627141331
+INFO 2026-04-14 14:20:29,713 views 24300 18440 ==================================================
+INFO 2026-04-14 14:20:29,714 views 24300 18440 INITIATING PAYMENT
+INFO 2026-04-14 14:20:29,715 views 24300 18440 Phone: 254799011954
+INFO 2026-04-14 14:20:29,716 views 24300 18440 Amount: 1
+INFO 2026-04-14 14:20:29,717 views 24300 18440 Reference: GM2637010
+INFO 2026-04-14 14:20:29,717 views 24300 18440 ==================================================
+INFO 2026-04-14 14:20:29,718 views 24300 18440 Formatted phone: 254799011954
+INFO 2026-04-14 14:20:30,998 views 24300 18440 Successfully got access token
+INFO 2026-04-14 14:20:31,001 views 24300 18440 Access token obtained successfully
+INFO 2026-04-14 14:20:31,002 views 24300 18440 Callback URL: https://hypermodest-irena-washy.ngrok-free.dev/api/mpesa/callback/
+INFO 2026-04-14 14:20:31,002 views 24300 18440 Sending STK push request to M-Pesa...
+INFO 2026-04-14 14:20:32,428 views 24300 18440 M-Pesa response status: 200
+INFO 2026-04-14 14:20:32,429 views 24300 18440 M-Pesa response: {
+  "MerchantRequestID": "ed4f-485c-b28f-e8afc887210a3347",
+  "CheckoutRequestID": "ws_CO_14042026142029605799011954",
+  "ResponseCode": "0",
+  "ResponseDescription": "Success. Request accepted for processing",
+  "CustomerMessage": "Success. Request accepted for processing"
+}
+INFO 2026-04-14 14:20:32,453 views 24300 18440 SUCCESS: STK push initiated! Checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:20:32,453 views 24300 18440 Please check phone 254799011954 for STK push prompt
+INFO 2026-04-14 14:20:35,473 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:20:35,482 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:20:35,482 views 24300 18440   Status: pending
+INFO 2026-04-14 14:20:35,483 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:20:35,483 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:20:35,483 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:20:38,477 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:20:38,483 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:20:38,484 views 24300 18440   Status: pending
+INFO 2026-04-14 14:20:38,484 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:20:38,485 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:20:38,486 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:20:41,471 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:20:41,475 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:20:41,477 views 24300 18440   Status: pending
+INFO 2026-04-14 14:20:41,478 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:20:41,478 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:20:41,479 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:20:44,576 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:20:44,581 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:20:44,581 views 24300 18440   Status: pending
+INFO 2026-04-14 14:20:44,582 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:20:44,583 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:20:44,583 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:20:47,654 views 24300 10016 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:20:47,664 views 24300 10016 Found transaction in DB: ID=53
+INFO 2026-04-14 14:20:47,666 views 24300 10016   Status: pending
+INFO 2026-04-14 14:20:47,668 views 24300 10016   Receipt: None
+INFO 2026-04-14 14:20:47,668 views 24300 10016   Result Code: None
+INFO 2026-04-14 14:20:47,672 views 24300 10016   Result Desc: None
+INFO 2026-04-14 14:20:50,571 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:20:50,575 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:20:50,576 views 24300 18440   Status: pending
+INFO 2026-04-14 14:20:50,576 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:20:50,576 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:20:50,577 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:20:53,584 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:20:53,589 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:20:53,590 views 24300 18440   Status: pending
+INFO 2026-04-14 14:20:53,591 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:20:53,591 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:20:53,592 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:20:56,577 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:20:56,583 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:20:56,585 views 24300 18440   Status: pending
+INFO 2026-04-14 14:20:56,586 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:20:56,588 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:20:56,588 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:20:59,570 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:20:59,575 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:20:59,576 views 24300 18440   Status: pending
+INFO 2026-04-14 14:20:59,576 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:20:59,577 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:20:59,578 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:21:02,576 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:21:02,581 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:21:02,581 views 24300 18440   Status: pending
+INFO 2026-04-14 14:21:02,582 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:21:02,583 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:21:02,583 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:21:05,566 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:21:05,571 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:21:05,572 views 24300 18440   Status: pending
+INFO 2026-04-14 14:21:05,572 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:21:05,573 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:21:05,573 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:21:08,579 views 24300 18440 Checking status for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:21:08,586 views 24300 18440 Found transaction in DB: ID=53
+INFO 2026-04-14 14:21:08,587 views 24300 18440   Status: pending
+INFO 2026-04-14 14:21:08,588 views 24300 18440   Receipt: None
+INFO 2026-04-14 14:21:08,589 views 24300 18440   Result Code: None
+INFO 2026-04-14 14:21:08,590 views 24300 18440   Result Desc: None
+INFO 2026-04-14 14:21:08,613 views 24300 18440 Manual simulation requested for checkout ID: ws_CO_14042026142029605799011954
+INFO 2026-04-14 14:21:08,639 views 24300 18440 Manually completed transaction: ws_CO_14042026142029605799011954 with receipt: SIM112350142108
+INFO 2026-04-15 18:55:57,348 views 28532 1272 Callback received: {'Body': {'stkCallback': {'MerchantRequestID': 'acf4-4d2b-b7f7-ecb2523cdd9822427', 'CheckoutRequestID': 'ws_CO_15042026185545577799011954', 'ResultCode': 0, 'ResultDesc': 'The service request is processed successfully.', 'CallbackMetadata': {'Item': [{'Name': 'Amount', 'Value': 1}, {'Name': 'MpesaReceiptNumber', 'Value': 'UDFN50VQHM'}, {'Name': 'Balance'}, {'Name': 'TransactionDate', 'Value': 20260415185554}, {'Name': 'PhoneNumber', 'Value': 254799011954}]}}}}
+INFO 2026-04-15 18:55:57,353 views 28532 1272 Found transaction: 64
+INFO 2026-04-15 18:55:57,353 views 28532 1272 Payment completed! Receipt: UDFN50VQHM
+INFO 2026-04-15 18:55:57,377 views 28532 1272 Transaction status updated to: completed
+INFO 2026-04-15 19:00:33,650 views 10816 24212 Callback received: {'Body': {'stkCallback': {'MerchantRequestID': '3718-4793-9f51-ad52aeb3a0f48586', 'CheckoutRequestID': 'ws_CO_15042026190020771799011954', 'ResultCode': 0, 'ResultDesc': 'The service request is processed successfully.', 'CallbackMetadata': {'Item': [{'Name': 'Amount', 'Value': 1}, {'Name': 'MpesaReceiptNumber', 'Value': 'UDFN50VRSW'}, {'Name': 'Balance'}, {'Name': 'TransactionDate', 'Value': 20260415190030}, {'Name': 'PhoneNumber', 'Value': 254799011954}]}}}}
+INFO 2026-04-15 19:00:33,655 views 10816 24212 Found transaction: 65
+INFO 2026-04-15 19:00:33,656 views 10816 24212 Payment completed! Receipt: UDFN50VRSW
+INFO 2026-04-15 19:00:33,666 views 10816 24212 Transaction status updated to: completed
+INFO 2026-04-15 19:05:51,129 views 11912 29352 ============================================================
+INFO 2026-04-15 19:05:51,209 views 11912 29352 ============================================================
+INFO 2026-04-19 22:05:26,477 views 8452 3984 ============================================================
+INFO 2026-04-19 22:05:26,563 views 8452 3984 ============================================================
+INFO 2026-04-19 22:19:58,170 views 18856 20308 ============================================================
+INFO 2026-04-19 22:19:58,250 views 18856 20308 ============================================================
+INFO 2026-04-19 22:52:37,330 views 22984 20372 ============================================================
+INFO 2026-04-19 22:52:37,407 views 22984 20372 ============================================================
+INFO 2026-04-21 14:21:16,760 views 18504 24912 WebSocket update sent for ws_CO_21042026142051801799011954
+INFO 2026-04-21 14:23:57,357 views 27760 18620 WebSocket update sent for ws_CO_21042026142344371799011954
+INFO 2026-04-21 14:30:51,766 views 27760 23672 WebSocket update sent for ws_CO_21042026143023972799011954
